@@ -1,0 +1,1197 @@
+{
+  "schema_version": "1.1.0",
+  "dataset_id": "CLUBENSE-BR-CORPUS-PARCIAL-1902-1906",
+  "country": "BR",
+  "generated_on": "2026-11-03",
+  "scope_note": "Contabilidade restrita das edições paulistas 1902–1904; não é ranking nacional completo. A referência externa Top 10 conserva sua própria metodologia e pontuação.",
+  "sources": [
+    {
+      "id": "CANON_1902_1904",
+      "file": "CLUBENSE_CONCILIACAO_CANONICA_1902_1904_2026-10-14.md",
+      "label": "Novo livro-razão canônico v1.6, CP001–CP003",
+      "date": "2026-10-14",
+      "availability": "Biblioteca interna do CLUBENSE",
+      "sha256_materialized": "1ec2a5bd1df45726e62b260205f8da4677fb31f70380dfacbe840b701c20b733",
+      "state": "RESTRITO_COM_RESSALVAS"
+    },
+    {
+      "id": "CP004_1905_DERIVADO",
+      "file": "CLUBENSE_CP004_1905_livro_razao_conciliado.json",
+      "label": "Cópia derivada CP004 — 1905, não lançada",
+      "date": "2026-10-15",
+      "availability": "Biblioteca interna do CLUBENSE",
+      "state": "NAO_LANCADO"
+    },
+    {
+      "id": "CP004_1905_DOSSIE",
+      "file": "DOSSIE_INTEGRAL_18_CAPITULOS.md",
+      "label": "CP004 — Brasil 1905, dossiê de 18 capítulos",
+      "date": "2026-10-13",
+      "availability": "Biblioteca interna do CLUBENSE",
+      "state": "DOCUMENTAL_PARCIAL"
+    },
+    {
+      "id": "CP005_1906_EDITORIAL",
+      "file": "CLUBENSE_CP005_1906_DOSSIE_EDITORIAL.pdf",
+      "label": "CP005 — Brasil 1906, dossiê editorial",
+      "date": "2026-10-12",
+      "availability": "Biblioteca interna do CLUBENSE",
+      "state": "DOCUMENTAL_PARCIAL"
+    },
+    {
+      "id": "REF_2026_11_01",
+      "url": "https://rankinghistorico.com.br/",
+      "label": "Ranking Histórico (referência externa) — Top 10 acumulado",
+      "date": "2026-11-01",
+      "availability": "Website público",
+      "state": "BASE_EXTERNA_PROVISORIA"
+    }
+  ],
+  "editions": [
+    {
+      "id": "SP1902_A",
+      "year": 1902,
+      "name": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "count": 5,
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "source_id": "CANON_1902_1904",
+      "posted": true,
+      "champion": "São Paulo Athletic Club",
+      "caveat": "Resultado paulista com ressalvas; não representa inventário brasileiro completo."
+    },
+    {
+      "id": "SP1903_A",
+      "year": 1903,
+      "name": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "count": 5,
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "source_id": "CANON_1902_1904",
+      "posted": true,
+      "champion": "São Paulo Athletic Club",
+      "caveat": "Resultado paulista com ressalvas; não representa inventário brasileiro completo."
+    },
+    {
+      "id": "SP1904_A",
+      "year": 1904,
+      "name": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "count": 6,
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "source_id": "CANON_1902_1904",
+      "posted": true,
+      "champion": "São Paulo Athletic Club",
+      "caveat": "Resultado paulista com ressalvas; não representa inventário brasileiro completo."
+    },
+    {
+      "id": "SP1905_A",
+      "year": 1905,
+      "name": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "count": 6,
+      "status": "SEM_DECISAO_NAO_LANCADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "posted": false,
+      "champion": "Club Athletico Paulistano",
+      "caveat": "Créditos apenas calculados no CP004, sem lançamento no mestre."
+    },
+    {
+      "id": "BA1905_A",
+      "year": 1905,
+      "name": "Campeonato Baiano — 1ª divisão",
+      "territory": "BA",
+      "count": 4,
+      "status": "SEM_DECISAO_NAO_LANCADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "posted": false,
+      "champion": "Clube Internacional de Cricket",
+      "caveat": "Créditos apenas calculados no CP004, sem lançamento no mestre."
+    },
+    {
+      "id": "SP1906_A",
+      "year": 1906,
+      "name": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "count": null,
+      "status": "DOCUMENTAL_DIVERGENTE",
+      "source_id": "CP005_1906_EDITORIAL",
+      "posted": false,
+      "champion": "Sport Club Germânia",
+      "caveat": "FPF reconhece o campeão; controvérsia sobre os efeitos da LPF. Nenhum crédito lançado."
+    },
+    {
+      "id": "BA1906_A",
+      "year": 1906,
+      "name": "Campeonato Baiano — 1ª divisão",
+      "territory": "BA",
+      "count": null,
+      "status": "DOCUMENTAL_SEM_CREDITO",
+      "source_id": "CP005_1906_EDITORIAL",
+      "posted": false,
+      "champion": "Clube de Natação e Regatas São Salvador",
+      "caveat": "Dossiê documental, sem crédito liberado."
+    },
+    {
+      "id": "DF1906_A",
+      "year": 1906,
+      "name": "Campeonato Carioca — 1ª divisão",
+      "territory": "DF1906",
+      "count": 6,
+      "status": "DOCUMENTAL_SEM_CREDITO",
+      "source_id": "CP005_1906_EDITORIAL",
+      "posted": false,
+      "champion": "Fluminense Football Club",
+      "caveat": "Distrito Federal de 1906 ≠ atual UF RJ; sem crédito lançado."
+    }
+  ],
+  "seasons": [
+    {
+      "year": 1902,
+      "edition_ids": [
+        "SP1902_A"
+      ],
+      "territories": [
+        "SP"
+      ],
+      "posted_count": 5,
+      "unposted_count": 0,
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "scope": "Recorte documentado, não inventário nacional exaustivo",
+      "decision": "Divergências preservadas; não alterar sem conciliação."
+    },
+    {
+      "year": 1903,
+      "edition_ids": [
+        "SP1903_A"
+      ],
+      "territories": [
+        "SP"
+      ],
+      "posted_count": 5,
+      "unposted_count": 0,
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "scope": "Recorte documentado, não inventário nacional exaustivo",
+      "decision": "Divergências preservadas; não alterar sem conciliação."
+    },
+    {
+      "year": 1904,
+      "edition_ids": [
+        "SP1904_A"
+      ],
+      "territories": [
+        "SP"
+      ],
+      "posted_count": 6,
+      "unposted_count": 0,
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "scope": "Recorte documentado, não inventário nacional exaustivo",
+      "decision": "Divergências preservadas; não alterar sem conciliação."
+    },
+    {
+      "year": 1905,
+      "edition_ids": [
+        "SP1905_A",
+        "BA1905_A"
+      ],
+      "territories": [
+        "SP",
+        "BA"
+      ],
+      "posted_count": 0,
+      "unposted_count": 10,
+      "status": "SEM_DECISAO_NAO_LANCADO",
+      "scope": "Recorte documentado, não inventário nacional exaustivo",
+      "decision": "As temporadas 1905 e 1906 continuam sem decisão."
+    },
+    {
+      "year": 1906,
+      "edition_ids": [
+        "SP1906_A",
+        "BA1906_A",
+        "DF1906_A"
+      ],
+      "territories": [
+        "SP",
+        "BA",
+        "DF1906"
+      ],
+      "posted_count": 0,
+      "unposted_count": 0,
+      "status": "SEM_DECISAO_NAO_LANCADO",
+      "scope": "Recorte documentado, não inventário nacional exaustivo",
+      "decision": "As temporadas 1905 e 1906 continuam sem decisão."
+    }
+  ],
+  "clubs_catalogue": [
+    {
+      "id": "PAU",
+      "historical_name": "Clube Atlético Paulistano",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "GER",
+      "historical_name": "Sport Club Germânia",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "SCI_SP",
+      "historical_name": "Sport Club Internacional (São Paulo)",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "SPAC",
+      "historical_name": "São Paulo Athletic Club",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "MCK",
+      "historical_name": "Associação Atlética Mackenzie College",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "AAP",
+      "historical_name": "Associação Atlética das Palmeiras",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "CIC_BA",
+      "historical_name": "Clube Internacional de Cricket",
+      "city": "Salvador",
+      "territory": "BA",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "SS_BA",
+      "historical_name": "Clube de Natação e Regatas São Salvador",
+      "city": "Salvador",
+      "territory": "BA",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "VIT_BA",
+      "historical_name": "Club de Cricket Victoria / Esporte Clube Vitória",
+      "city": "Salvador",
+      "territory": "BA",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "BAH_BA",
+      "historical_name": "Sport Club Bahiano",
+      "city": "Salvador",
+      "territory": "BA",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "PER_SP",
+      "historical_name": "Sport Club Perdizes",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "BF_SP",
+      "historical_name": "Sport Club Barra Funda",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "UNI_SP",
+      "historical_name": "Sport Club União",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "SPR_SP",
+      "historical_name": "São Paulo Railway Foot-Ball Club",
+      "city": "São Paulo",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "JUN_SP",
+      "historical_name": "Jundiahy Foot-Ball Club",
+      "city": "Jundiaí",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "CAI_SAN",
+      "historical_name": "Club Athletico Internacional (Santos)",
+      "city": "Santos",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "SCA_SAN",
+      "historical_name": "Sport Club Americano (Santos)",
+      "city": "Santos",
+      "territory": "SP",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "GRE",
+      "historical_name": "Grêmio Foot-Ball Porto Alegrense",
+      "city": "Porto Alegre",
+      "territory": "RS",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "FUS",
+      "historical_name": "Fussball Club Porto Alegre",
+      "city": "Porto Alegre",
+      "territory": "RS",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "GRE_B",
+      "historical_name": "Grêmio, segundo quadro",
+      "city": "Porto Alegre",
+      "territory": "RS",
+      "year_evidence": 1905,
+      "kind": "SEGUNDO_QUADRO",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "FUS_B",
+      "historical_name": "Fussball, segundo quadro",
+      "city": "Porto Alegre",
+      "territory": "RS",
+      "year_evidence": 1905,
+      "kind": "SEGUNDO_QUADRO",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "FLU",
+      "historical_name": "Fluminense Football Club",
+      "city": "Distrito Federal (Rio)",
+      "territory": "DF1905",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "BOT",
+      "historical_name": "Botafogo Football Club",
+      "city": "Distrito Federal (Rio)",
+      "territory": "DF1905",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "BANGU",
+      "historical_name": "Bangu Athletic Club",
+      "city": "Distrito Federal (Rio)",
+      "territory": "DF1905",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "RIO_CR",
+      "historical_name": "Rio Cricket and Athletic Association",
+      "city": "Niterói",
+      "territory": "RJ1905",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "FGA",
+      "historical_name": "Football and Athletic Club",
+      "city": "Distrito Federal (Rio)",
+      "territory": "DF1905",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "SPORT_REC",
+      "historical_name": "Sport Club do Recife",
+      "city": "Recife",
+      "territory": "PE",
+      "year_evidence": 1905,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "ENG_XI",
+      "historical_name": "English Eleven (seleção/equipe)",
+      "city": "Recife",
+      "territory": "PE",
+      "year_evidence": 1905,
+      "kind": "SELECAO",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP004_1905_DOSSIE",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    },
+    {
+      "id": "PAY_DF_1906",
+      "historical_name": "Paysandu Cricket Club",
+      "city": "Rio de Janeiro (DF em 1906)",
+      "territory": "DF1906",
+      "year_evidence": 1906,
+      "kind": "CLUBE_OU_EQUIPE",
+      "emblem": "NAO_AUTENTICADO",
+      "source_id": "CP005_1906_EDITORIAL",
+      "credit_by_cadastro": false,
+      "identity_unification": "SOMENTE_MEDIANTE_PROVA"
+    }
+  ],
+  "posted_ledger": [
+    {
+      "id": "RANKING_FINAL:1902:SP1902_A:SPAC",
+      "year": 1902,
+      "edition_id": "SP1902_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SPAC",
+      "club_name": "São Paulo Athletic Club",
+      "position": 1,
+      "points": {
+        "numerator": 10000,
+        "denominator": 1,
+        "exact": "10000"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1902:SP1902_A:PAU",
+      "year": 1902,
+      "edition_id": "SP1902_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "PAU",
+      "club_name": "Club Athletico Paulistano",
+      "position": 2,
+      "points": {
+        "numerator": 8000,
+        "denominator": 1,
+        "exact": "8000"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1902:SP1902_A:MCK",
+      "year": 1902,
+      "edition_id": "SP1902_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "MCK",
+      "club_name": "Associação Atlética Mackenzie College",
+      "position": 3,
+      "points": {
+        "numerator": 11000,
+        "denominator": 3,
+        "exact": "11000/3"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1902:SP1902_A:GER",
+      "year": 1902,
+      "edition_id": "SP1902_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "GER",
+      "club_name": "Sport Club Germânia",
+      "position": 4,
+      "points": {
+        "numerator": 3200,
+        "denominator": 3,
+        "exact": "3200/3"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1902:SP1902_A:SCI_SP",
+      "year": 1902,
+      "edition_id": "SP1902_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SCI_SP",
+      "club_name": "Sport Club Internacional (São Paulo)",
+      "position": 5,
+      "points": {
+        "numerator": 200,
+        "denominator": 1,
+        "exact": "200"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1903:SP1903_A:SPAC",
+      "year": 1903,
+      "edition_id": "SP1903_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SPAC",
+      "club_name": "São Paulo Athletic Club",
+      "position": 1,
+      "points": {
+        "numerator": 10000,
+        "denominator": 1,
+        "exact": "10000"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1903:SP1903_A:PAU",
+      "year": 1903,
+      "edition_id": "SP1903_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "PAU",
+      "club_name": "Club Athletico Paulistano",
+      "position": 2,
+      "points": {
+        "numerator": 8000,
+        "denominator": 1,
+        "exact": "8000"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1903:SP1903_A:MCK",
+      "year": 1903,
+      "edition_id": "SP1903_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "MCK",
+      "club_name": "Associação Atlética Mackenzie College",
+      "position": 3,
+      "points": {
+        "numerator": 11000,
+        "denominator": 3,
+        "exact": "11000/3"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1903:SP1903_A:SCI_SP",
+      "year": 1903,
+      "edition_id": "SP1903_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SCI_SP",
+      "club_name": "Sport Club Internacional (São Paulo)",
+      "position": 4,
+      "points": {
+        "numerator": 3200,
+        "denominator": 3,
+        "exact": "3200/3"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1903:SP1903_A:GER",
+      "year": 1903,
+      "edition_id": "SP1903_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "GER",
+      "club_name": "Sport Club Germânia",
+      "position": 5,
+      "points": {
+        "numerator": 200,
+        "denominator": 1,
+        "exact": "200"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1904:SP1904_A:SPAC",
+      "year": 1904,
+      "edition_id": "SP1904_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SPAC",
+      "club_name": "São Paulo Athletic Club",
+      "position": 1,
+      "points": {
+        "numerator": 10000,
+        "denominator": 1,
+        "exact": "10000"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1904:SP1904_A:PAU",
+      "year": 1904,
+      "edition_id": "SP1904_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "PAU",
+      "club_name": "Club Athletico Paulistano",
+      "position": 2,
+      "points": {
+        "numerator": 8000,
+        "denominator": 1,
+        "exact": "8000"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1904:SP1904_A:SCI_SP",
+      "year": 1904,
+      "edition_id": "SP1904_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SCI_SP",
+      "club_name": "Sport Club Internacional (São Paulo)",
+      "position": 3,
+      "points": {
+        "numerator": 9175,
+        "denominator": 2,
+        "exact": "9175/2"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1904:SP1904_A:MCK",
+      "year": 1904,
+      "edition_id": "SP1904_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "MCK",
+      "club_name": "Associação Atlética Mackenzie College",
+      "position": 4,
+      "points": {
+        "numerator": 2150,
+        "denominator": 1,
+        "exact": "2150"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1904:SP1904_A:GER",
+      "year": 1904,
+      "edition_id": "SP1904_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "GER",
+      "club_name": "Sport Club Germânia",
+      "position": 5,
+      "points": {
+        "numerator": 1375,
+        "denominator": 2,
+        "exact": "1375/2"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    },
+    {
+      "id": "RANKING_FINAL:1904:SP1904_A:AAP",
+      "year": 1904,
+      "edition_id": "SP1904_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "AAP",
+      "club_name": "Associação Atlética das Palmeiras (1904)",
+      "position": 6,
+      "points": {
+        "numerator": 200,
+        "denominator": 1,
+        "exact": "200"
+      },
+      "status": "LANCADO_CANONICO_RESTRITO",
+      "posted": true,
+      "source_id": "CANON_1902_1904",
+      "source_locator": "Seção 2 / Lançamentos conciliados",
+      "caveat": "Recorte paulista com ressalvas; não equivale a ranking nacional exaustivo."
+    }
+  ],
+  "unposted_calculations": [
+    {
+      "id": "RANKING_FINAL:1905:SP1905_A:PAU",
+      "year": 1905,
+      "edition_id": "SP1905_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "PAU",
+      "club_name": "Club Athletico Paulistano",
+      "position": 1,
+      "points": {
+        "numerator": 10000,
+        "denominator": 1,
+        "exact": "10000"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:SP1905_A:GER",
+      "year": 1905,
+      "edition_id": "SP1905_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "GER",
+      "club_name": "Sport Club Germânia",
+      "position": 2,
+      "points": {
+        "numerator": 8000,
+        "denominator": 1,
+        "exact": "8000"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:SP1905_A:SCI_SP",
+      "year": 1905,
+      "edition_id": "SP1905_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SCI_SP",
+      "club_name": "Sport Club Internacional (São Paulo)",
+      "position": 3,
+      "points": {
+        "numerator": 9175,
+        "denominator": 2,
+        "exact": "9175/2"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:SP1905_A:SPAC",
+      "year": 1905,
+      "edition_id": "SP1905_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "SPAC",
+      "club_name": "São Paulo Athletic Club",
+      "position": 4,
+      "points": {
+        "numerator": 2150,
+        "denominator": 1,
+        "exact": "2150"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:SP1905_A:MCK",
+      "year": 1905,
+      "edition_id": "SP1905_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "MCK",
+      "club_name": "Associação Atlética Mackenzie College",
+      "position": 5,
+      "points": {
+        "numerator": 1375,
+        "denominator": 2,
+        "exact": "1375/2"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:SP1905_A:AAP",
+      "year": 1905,
+      "edition_id": "SP1905_A",
+      "competition": "Campeonato Paulista — 1ª divisão",
+      "territory": "SP",
+      "country": "BR",
+      "club_id": "AAP",
+      "club_name": "Associação Atlética das Palmeiras",
+      "position": 6,
+      "points": {
+        "numerator": 200,
+        "denominator": 1,
+        "exact": "200"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:BA1905_A:CIC_BA",
+      "year": 1905,
+      "edition_id": "BA1905_A",
+      "competition": "Campeonato Baiano — 1ª divisão",
+      "territory": "BA",
+      "country": "BR",
+      "club_id": "CIC_BA",
+      "club_name": "Clube Internacional de Cricket",
+      "position": 1,
+      "points": {
+        "numerator": 10000,
+        "denominator": 1,
+        "exact": "10000"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:BA1905_A:SS_BA",
+      "year": 1905,
+      "edition_id": "BA1905_A",
+      "competition": "Campeonato Baiano — 1ª divisão",
+      "territory": "BA",
+      "country": "BR",
+      "club_id": "SS_BA",
+      "club_name": "Clube de Natação e Regatas São Salvador",
+      "position": 2,
+      "points": {
+        "numerator": 8000,
+        "denominator": 1,
+        "exact": "8000"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:BA1905_A:VIT_BA",
+      "year": 1905,
+      "edition_id": "BA1905_A",
+      "competition": "Campeonato Baiano — 1ª divisão",
+      "territory": "BA",
+      "country": "BR",
+      "club_id": "VIT_BA",
+      "club_name": "Club de Cricket Victoria / Esporte Clube Vitória",
+      "position": 3,
+      "points": {
+        "numerator": 2150,
+        "denominator": 1,
+        "exact": "2150"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    },
+    {
+      "id": "RANKING_FINAL:1905:BA1905_A:BAH_BA",
+      "year": 1905,
+      "edition_id": "BA1905_A",
+      "competition": "Campeonato Baiano — 1ª divisão",
+      "territory": "BA",
+      "country": "BR",
+      "club_id": "BAH_BA",
+      "club_name": "Sport Club Bahiano",
+      "position": 4,
+      "points": {
+        "numerator": 200,
+        "denominator": 1,
+        "exact": "200"
+      },
+      "status": "CALCULADO_NAO_LANCADO_SEM_DECISAO",
+      "posted": false,
+      "source_id": "CP004_1905_DERIVADO",
+      "source_locator": "Registros 1905 / cópia derivada CP004",
+      "caveat": "Decisão sobre 1905/1906 não tomada. Crédito não lançado no livro-razão mestre."
+    }
+  ],
+  "audit_issues": [
+    {
+      "id": "C07/C23",
+      "title": "Internacionais",
+      "state": "HOLD",
+      "rule": "Mostrar matrizes e resultados documentados, mas não somar créditos sem liberação formal."
+    },
+    {
+      "id": "REG",
+      "title": "Regionais históricos",
+      "state": "AUDITORIA",
+      "rule": "Auditar cada edição; somente colocações comprovadas são elegíveis."
+    },
+    {
+      "id": "1905/1906",
+      "title": "1905 e 1906",
+      "state": "SEM_DECISAO",
+      "rule": "Nenhum crédito dessas temporadas foi liberado neste registro."
+    },
+    {
+      "id": "1902/1904",
+      "title": "Divergências 1902/1904",
+      "state": "DIVERGENCIA",
+      "rule": "Preservar todas as fontes e versões antes de retificar."
+    },
+    {
+      "id": "PA_1908_1910",
+      "title": "Pará 1908/1910",
+      "state": "ND/HOLD",
+      "rule": "Não inferir posições nem distribuir reserva hipotética."
+    },
+    {
+      "id": "1918",
+      "title": "Temporada 1918",
+      "state": "INCOMPLETA",
+      "rule": "Publicar só documentos comprovados; classificação nacional anual não homologada."
+    },
+    {
+      "id": "GRE_1919",
+      "title": "Grêmio 1919",
+      "state": "PENDENTE",
+      "rule": "Retificação de -1.000 pontos ainda não lançada; depende de conciliação."
+    },
+    {
+      "id": "EMBLEMAS",
+      "title": "Escudos e emblemas",
+      "state": "PENDENTE",
+      "rule": "Somente escudos reais datados e autenticados. Caso contrário, monogramas neutros."
+    }
+  ],
+  "integrity": {
+    "posted_count": 16,
+    "pending_count": 10,
+    "clubs_count": 29,
+    "editions_count": 8,
+    "posted_sum_exact": "214475/3",
+    "pending_sum_exact": "45975",
+    "posted_by_year": {
+      "1902": "68800/3",
+      "1903": "68800/3",
+      "1904": "25625"
+    },
+    "rules": [
+      "Não misturar pontuação externa e CLUBENSE",
+      "Não creditar cálculos não lançados",
+      "Não marcar ranking nacional incompleto como definitivo",
+      "ND não significa zero",
+      "HOLD não autoriza lançamento",
+      "Não usar emblemas falsos ou anacrônicos"
+    ]
+  }
+}

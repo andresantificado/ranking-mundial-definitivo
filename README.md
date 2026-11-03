@@ -1,24 +1,40 @@
-# Ranking Mundial Definitivo — BETA
+# RANKING MUNDIAL DEFINITIVO — BETA 1.1
 
-**Site público e gratuito de história do futebol**, com visual de gramado verde e dourado e estrutura para expansão internacional.
+Site estático gratuito com um ranking brasileiro provisório de referência e acervo documental CLUBENSE 1902–1906.
 
-**[Abrir o portal](https://andresantificado.github.io/ranking-mundial-definitivo/)**
+- [Portal principal](https://andresantificado.github.io/ranking-mundial-definitivo/)
+- [Acervo de temporadas, clubes e créditos](https://andresantificado.github.io/ranking-mundial-definitivo/acervo.html)
+- [Banco versionado com rastreabilidade](data/acervo-clubense-v1.json)
 
-## Situação dos dados
+## Camadas distintas
 
-- A classificação brasileira Top 10 tem origem provisória no site [Ranking Histórico](https://rankinghistorico.com.br/), com recorte divulgado em 01/11/2026. Os totais são metodologicamente externos e **não são créditos homologados** do CLUBENSE.
-- A calculadora por colocações é um simulador independente, derivado do regulamento CLUBENSE v1.6 e da Emenda 006. Seus resultados não são incorporados automaticamente à classificação.
-- Os créditos internacionais sujeitos às decisões C07/C23 permanecem em **HOLD**. As temporadas de 1905 e 1906 continuam **sem decisão**.
-- Registros ND, HOLD e divergentes não são transformados em valores fictícios. A expansão mundial e os filtros históricos completos dependem de fontes verificáveis.
+1. **Referência externa**: Top 10 com pontuações próprias do [Ranking Histórico](https://rankinghistorico.com.br/), conforme snapshot de 01/11/2026. **Provisório, não CLUBENSE.**
+2. **CLUBENSE registrado**: 16 entradas do livro-razão canônico v1.6/Emenda 006, todas das três edições do Campeonato Paulista de 1902 a 1904, total exato **214475/3** (71.491,666…); não é ranking nacional completo.
+3. **CLUBENSE calculado e não lançado**: 10 colocações de 1905, Paulista e Baiano, total teórico **45.975**, sem decisão 1905/1906; estes valores **nunca entram no total lançado**.
+4. **1906 apenas documental**: três edições catalogadas; Paulista sob divergência e campeonatos Baiano/Carioca identificados. Nenhum crédito atribuído.
+5. **Cadastro histórico**: 28 entidades, quadros ou equipes documentadas em 1905 mais Paysandu Cricket Club documentado em 1906 (29 identificadores); cadastro não equivale a pontos.
 
-## Arquitetura e custos
+## Proteções
 
-O `index.html` contém CSS, JavaScript, recursos gráficos próprios e a base inicial. É um site estático sem dependências pagas, publicável pelo GitHub Pages a partir da branch `main`, diretório `/`.
+- Números da fonte externa não são somados aos pontos CLUBENSE.
+- A fórmula canônica da calculadora não substitui lançamentos documentais.
+- C07/C23 continuam HOLD; divergências 1902/1904 são preservadas.
+- Pará 1908/1910, temporada 1918 e Grêmio 1919 seguem condições previamente aprovadas.
+- Escudos são substituídos por monogramas neutros quando não autenticados.
+- Atenção ao **Distrito Federal histórico (1905/1906)**, que não deve ser confundido com a UF DF atual.
+- Homônimos de Internacional e Palmeiras são identidades históricas distintas.
+- Não foram publicados os documentos privados completos da Biblioteca do usuário: apenas metadados de proveniência e lançamentos selecionados para o acervo.
 
-## Origem e direitos
+## Estrutura
 
-A interface e o código são originais, inspirados na organização funcional de portais de rankings; não replicam o código ou elementos protegidos do site de referência. Os pontos importados possuem atribuição à fonte. Não usar escudos fictícios ou material de terceiros sem direitos de reprodução.
+```
+index.html
+acervo.html
+data/acervo-clubense-v1.json
+.nojekyll
+README.md
+```
 
-## Estado da edição
+O acervo valida contagens, IDs e somas racionais no navegador. Não há APIs pagas, frameworks externos ou imagens protegidas obrigatórias. Hospedagem no GitHub Pages, branch `main`, pasta raiz.
 
-**BETA — dados provisórios.** A publicação não equivale à homologação histórica.
+**Data da revisão:** 03/11/2026.

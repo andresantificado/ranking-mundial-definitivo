@@ -41,7 +41,7 @@
       </a>
       <button class="mobile-toggle" id="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
       <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
-        <a href="#inicio">Início</a><a href="#ranking">Ranking</a><a href="#analises">Análises</a><a href="#calculadora">Calculadora</a><a href="#auditoria">Auditoria</a><a href="#fontes">Fontes</a>
+        <a href="#inicio">Início</a><a href="#ranking">Ranking</a><a href="acervo.html">Acervo documentado</a><a href="#analises">Análises</a><a href="#calculadora">Calculadora</a><a href="#auditoria">Auditoria</a><a href="#fontes">Fontes</a>
         <a href="#ranking" class="nav-cta">Explorar <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
@@ -55,7 +55,7 @@
           <p class="eyebrow"><span class="mini-line"></span> MEMÓRIA · ESTATÍSTICA · FUTEBOL</p>
           <h1 id="hero-title">O FUTEBOL<br>É <span class="serif-gold">ETERNO.</span><br><span class="h1-alt">CADA PONTO TEM HISTÓRIA.</span></h1>
           <p class="hero-lede">Uma nova casa para a grandeza dos clubes. Classificações, campanhas, critérios por colocação e pesquisa histórica — com transparência em cada número.</p>
-          <div class="hero-actions"><a href="#ranking" class="btn btn-gold">Ver ranking brasileiro <span aria-hidden="true">↗</span></a><a href="#calculadora" class="btn btn-ghost">Simular pontuação <span aria-hidden="true">→</span></a></div>
+          <div class="hero-actions"><a href="#ranking" class="btn btn-gold">Ver ranking brasileiro <span aria-hidden="true">↗</span></a><a href="acervo.html" class="btn btn-ghost">Explorar temporadas 1902–1906 <span aria-hidden="true">→</span></a></div>
           <div class="hero-proof"><span><b>01</b> Base provisória</span><span><b>08</b> Pendências monitoradas</span><span><b>100%</b> Gratuito</span></div>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -85,7 +85,7 @@
 
     <section class="section ranking-section" id="ranking" aria-labelledby="ranking-title"><div class="container">
       <div class="section-head"><div><p class="eyebrow dark-eye">01 / A CLASSIFICAÇÃO</p><h2 id="ranking-title">A corrida pela <em>história.</em></h2><p class="section-deck">Dados públicos de referência, sem alterar seus pontos. A metodologia CLUBENSE será incorporada em uma base distinta, após auditoria.</p></div><div class="edition-stamp"><span>EDIÇÃO INICIAL</span><strong>BRASIL</strong><small>Fonte: 01 NOV 2026</small></div></div>
-      <div class="ranking-shell">
+      <div style="border-left:4px solid #b5934a;padding:18px 22px;background:#eae1c6;color:#22392c;margin:0 0 24px;border-radius:5px"><strong>NOVO · Acervo histórico auditável.</strong> 16 créditos do livro-razão canônico de 1902–1904, 10 cálculos de 1905 não lançados, fichas de clubes históricos e temporadas 1902–1906. <a href="acervo.html" style="text-decoration:underline;font-weight:850">Abrir acervo e rastreabilidade ↗</a>. <small style="display:block;margin-top:5px">Esses pontos não são somados ao Top 10 da referência externa; nenhum ranking nacional incompleto será apresentado como definitivo.</small></div><div class="ranking-shell">
         <div class="ranking-controls-top"><div class="segmented" role="group" aria-label="Conjunto de dados"><button class="seg active" id="dataset-reference" type="button" aria-pressed="true">Ranking de referência</button><button class="seg" id="dataset-local" type="button" aria-pressed="false">Base local / futura</button></div><div class="source-indicator"><span class="source-dot"></span><span id="source-label">10 posições verificadas · fonte externa</span></div></div>
         <div class="source-warning" id="source-warning"><span class="info-glyph">i</span><p><strong>Base provisória externa.</strong> Os pontos são reproduzidos conforme a classificação pública do site de referência. Não constituem créditos homologados do CLUBENSE. <a href="https://rankinghistorico.com.br/" target="_blank" rel="noopener noreferrer">Consultar origem ↗</a></p></div>
         <div class="filter-grid">
@@ -163,7 +163,7 @@
 }</pre></div></div>
     </div></section>
   </main>
-  <footer class="footer"><div class="container footer-inner"><div><div class="footer-brand">RANKING <span>MUNDIAL</span> DEFINITIVO</div><p>Futebol histórico. Matemática aberta. Memória preservada.</p><small>Projeto editorial original CLUBENSE · Dados de terceiros atribuídos à origem · 2026</small></div><div class="footer-links"><a href="#ranking">Ranking</a><a href="#calculadora">Pontuação</a><a href="#auditoria">Auditoria</a><a href="#fontes">Proveniência</a></div><a href="#inicio" class="back-top">↑ TOPO</a></div></footer>
+  <footer class="footer"><div class="container footer-inner"><div><div class="footer-brand">RANKING <span>MUNDIAL</span> DEFINITIVO</div><p>Futebol histórico. Matemática aberta. Memória preservada.</p><small>Projeto editorial original CLUBENSE · Dados de terceiros atribuídos à origem · 2026</small></div><div class="footer-links"><a href="#ranking">Ranking</a><a href="#calculadora">Pontuação</a><a href="#auditoria">Auditoria</a><a href="#fontes">Proveniência</a><a href="acervo.html">Acervo histórico</a></div><a href="#inicio" class="back-top">↑ TOPO</a></div></footer>
   <dialog class="club-dialog" id="club-dialog" aria-labelledby="dialog-title"><button class="dialog-close" id="dialog-close" type="button" aria-label="Fechar ficha do clube">×</button><div id="dialog-content"></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>/* Gerado de data/*.json pelo build.py */
