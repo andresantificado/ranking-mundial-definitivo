@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081f1a">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Ranking Mundial Definitivo: portal histórico de futebol, dados com fonte, ranking brasileiro provisório, calculadora de pontos e auditoria CLUBENSE. Gratuito.">
+  <meta property="og:title" content="Ranking Mundial Definitivo | A história de cada ponto">
+  <meta property="og:description" content="Futebol histórico, dados transparentes e cálculo por colocação. Projeto CLUBENSE.">
+  <meta property="og:type" content="website">
+  <title>Ranking Mundial Definitivo | CLUBENSE</title>
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMwODI0MWQiLz48cGF0aCBkPSJNMzIgNSA1NSAxM3YyNGMwIDExLTkgMTgtMjMgMjNDMTggNTUgOSA0OCA5IDM3VjEzTDMyIDVaIiBmaWxsPSJub25lIiBzdHJva2U9IiNkYmJkN2MiIHN0cm9rZS13aWR0aD0iMyIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iMjkiIHI9IjExIiBmaWxsPSIjZGJiZDdjIi8+PHBhdGggZD0ibTMyIDIxIDcgNS0zIDloLThsLTMtOXoiIGZpbGw9IiMwODI0MWQiLz48L3N2Zz4K" type="image/svg+xml">
+  <style>/* RANKING MUNDIAL DEFINITIVO — original static layout, no paid assets */
+:root{--deep:#081d18;--deep2:#102f27;--forest:#164735;--grass:#276247;--gold:#d6b775;--goldbright:#f2dd9f;--goldmuted:#a88a4d;--cream:#f7f3e9;--paper:#eee9db;--ink:#1c3028;--muted:#65766b;--line:#d9d5c5;--shadow:0 28px 80px rgba(10,31,24,.13);--serif:Georgia,'Times New Roman',serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;font-family:var(--sans);background:var(--cream);color:var(--ink);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button{cursor:pointer}input,select{min-width:0}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #d2ad59;outline-offset:3px}[hidden]{display:none!important}.container{width:min(100% - 64px,1230px);margin:0 auto}.skip-link{position:absolute;left:-100vw;top:8px;padding:12px 18px;background:var(--gold);z-index:100}.skip-link:focus{left:10px}.utility-bar{background:#03120e;color:#a7b5a6;border-bottom:1px solid #ffffff18;letter-spacing:1.55px;font-size:10px;font-weight:800}.utility-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:34px}.pulse-dot,.source-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#5be1a1;box-shadow:0 0 12px #5be1a188;margin-right:8px;vertical-align:middle}.star{color:var(--gold);margin:0 5px}.site-header{position:relative;z-index:20;background:#0a241d;border-bottom:1px solid #e6d19d25;box-shadow:0 6px 18px #0002}.header-inner{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{display:flex;align-items:center;gap:13px;flex-shrink:0;color:#faf5df}.brand-mark{width:47px;height:52px;color:#dfbf7f;display:grid;place-items:center}.brand-mark svg{width:100%;height:100%;filter:drop-shadow(0 4px 9px #e4bd5947)}.brand-type strong{font-size:16px;display:block;line-height:1.2;font-weight:950;letter-spacing:1.3px;white-space:nowrap}.brand-type strong em{font-style:normal;color:var(--gold)}.brand-type small{font-size:9px;display:block;margin-top:4px;letter-spacing:3px;font-weight:700;color:#bbbda8}.brand-type small span{color:var(--gold)}.main-nav{display:flex;align-items:center;gap:21px}.main-nav>a{font-size:11px;color:#dfebdc;font-weight:800;letter-spacing:.35px;transition:color .2s}.main-nav>a:hover{color:var(--goldbright)}.main-nav .nav-cta{padding:13px 18px;border:1px solid #ad9158;color:#f1d28a;border-radius:3px;white-space:nowrap}.nav-cta span{margin-left:12px}.mobile-toggle{display:none;background:none;border:0;padding:12px}.mobile-toggle span{display:block;width:24px;height:2px;background:var(--gold);margin:5px 0}
+.hero{isolation:isolate;position:relative;background:linear-gradient(117deg,#09251d 0%,#12392b 49%,#133d2a 100%);color:white;overflow:hidden;min-height:650px}.hero-field{position:absolute;inset:0;z-index:-2;background:radial-gradient(ellipse at 82% 57%,#3d8d5660 0%,transparent 47%),linear-gradient(110deg,#051912bd 7%,#05191220 65%,#05191250 100%),repeating-linear-gradient(90deg,#2363476e 0px,#2363476e 115px,#194c3b66 115px,#194c3b66 230px);filter:saturate(1.1)}.hero-field:after{content:"";position:absolute;inset:0;opacity:.19;background-image:repeating-linear-gradient(15deg,transparent 0,transparent 2px,#b8d69e15 2.4px,transparent 4px);background-size:9px 8px}.field-lines{position:absolute;right:-11%;top:8%;height:86%;width:63%;border:2px solid #d3e7c31a;transform:perspective(840px) rotateY(-29deg) rotateZ(-5deg)}.field-lines:before{content:"";position:absolute;left:50%;top:0;height:100%;border-left:2px solid #d3e7c329}.field-center{position:absolute;left:calc(50% - 81px);top:calc(50% - 81px);width:162px;height:162px;border:2px solid #d3e7c32c;border-radius:50%}.field-box{position:absolute;top:27%;width:19%;height:46%;border:2px solid #d3e7c329}.field-box-left{left:0;border-left:0}.field-box-right{right:0;border-right:0}.hero:after{content:"";position:absolute;left:0;bottom:0;right:0;height:110px;background:linear-gradient(0deg,#051c15ad,transparent);pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;min-height:590px;gap:10px;align-items:center}.hero-copy{position:relative;z-index:3;padding:55px 0 58px}.eyebrow{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:2.25px;font-weight:900;text-transform:uppercase;color:#d8bd81;margin:0 0 22px}.mini-line{width:30px;height:1px;background:var(--gold)}.hero h1{margin:0;font-weight:950;line-height:.98;letter-spacing:-3px;font-size:clamp(48px,6.1vw,91px);max-width:760px}.hero .serif-gold{font-family:var(--serif);font-weight:400;letter-spacing:-4px;font-style:italic;color:#e8c884}.h1-alt{font-size:.36em;letter-spacing:1.1px;font-weight:750;color:#f3eed9;line-height:2.2;white-space:nowrap}.hero-lede{font-size:15px;line-height:1.8;color:#d5e1d6;max-width:500px;margin:16px 0 30px}.hero-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:18px;padding:16px 21px;border-radius:3px;border:1px solid transparent;min-height:48px;font-size:12px;letter-spacing:.3px;font-weight:850;transition:transform .2s,background .2s,box-shadow .2s}.btn:hover{transform:translateY(-2px)}.btn-gold{background:linear-gradient(110deg,#b78d43,#ebd296 46%,#c49e56);color:#17281c;box-shadow:0 8px 25px #d8b66a20}.btn-gold:hover{box-shadow:0 11px 30px #d8b66a50}.btn-ghost{border-color:#d2e4cc66;color:#f5f4e5;background:#ffffff08}.btn-ghost:hover{background:#ffffff20}.btn-small{min-height:38px;padding:11px 17px;font-size:11px}.hero-proof{display:flex;flex-wrap:wrap;gap:23px;margin-top:38px}.hero-proof span{font-size:10px;color:#bbd0bc;text-transform:uppercase;letter-spacing:.7px}.hero-proof b{display:inline-block;color:#e5c27a;font-size:12px;margin-right:8px}.hero-art{position:relative;min-height:550px;display:flex;align-items:center;justify-content:center}.art-halo{position:absolute;width:405px;height:405px;border:1px solid #e3c47d66;border-radius:50%;box-shadow:0 0 0 32px #e3c47d09,0 0 0 90px #e3c47d04}.art-orbit{position:absolute;border-radius:50%;border:1px dashed #f5d99530}.art-orbit-one{width:500px;height:500px;transform:rotate(20deg) scaleX(.77)}.art-orbit-two{width:360px;height:360px;transform:rotate(-30deg) scaleX(1.3)}.art-glow{position:absolute;width:260px;height:380px;border-radius:50%;background:#e1b95e44;filter:blur(70px)}.trophy-art{z-index:1;width:min(100%,385px);max-height:500px;filter:drop-shadow(0 16px 25px #0006);animation:levitate 8s ease-in-out infinite}@keyframes levitate{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}.art-caption{position:absolute;bottom:34px;left:7%;font-weight:900;color:#ead7a9;font-size:10px;letter-spacing:2px;transform:rotate(-90deg);transform-origin:left bottom}.art-caption span{color:#fff;margin:0 8px}.art-coordinate{position:absolute;right:2%;bottom:36px;color:#c8d5b8;font-size:10px;line-height:1.8;letter-spacing:2px;text-align:right}.hero-bottom{position:relative;z-index:1;border-top:1px solid #ffffff25;color:#c1d5c4;font-size:9px;letter-spacing:2px;font-weight:800}.hero-bottom-inner{display:flex;justify-content:space-between;align-items:center;min-height:58px}.scroll-cue span{color:#d8be86;font-size:16px;margin-left:10px}.gold-strip{background:linear-gradient(100deg,#c5a365,#ead7a7,#bf954b);color:#2b2818}.strip-inner{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:45px}.strip-inner span{font-size:10px;font-weight:900;letter-spacing:1.25px;white-space:nowrap}.overview-section{background:#0b281e;color:#f1eddc}.overview-grid{display:grid;grid-template-columns:repeat(4,1fr);padding:34px 0;gap:0}.overview-cell{padding:8px 27px;border-right:1px solid #d0c49734}.overview-cell:first-child{padding-left:0}.overview-cell:last-child{border:0}.overview-kicker{color:#c8b882;letter-spacing:1.7px;font-size:9px;font-weight:850}.overview-figure{font-size:32px;font-weight:900;letter-spacing:-1px;margin:9px 0 3px;color:#fff9dc;min-height:42px}.overview-figure small{font-size:12px;letter-spacing:0;color:#c8d0bd;font-weight:500}.overview-figure .gold-small{font-size:25px;color:#e5c77c;letter-spacing:2px}.stat-div{font-size:20px;color:#b3ac86}.overview-cell p{margin:0;color:#b1c1b1;font-size:11px}
+.section{padding:96px 0;scroll-margin-top:70px}.ranking-section{background:var(--cream)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin:0 0 31px}.dark-eye{color:#9d7f44;margin-bottom:15px}.section h2{font:800 clamp(33px,4.25vw,55px)/1.09 var(--serif);letter-spacing:-1.7px;margin:0;color:#20372c}.section h2 em{font-weight:400;color:#977637}.section-deck{max-width:670px;font-size:13px;line-height:1.7;color:#68736a;margin:14px 0 0}.edition-stamp{min-width:165px;text-align:center;padding:14px 21px;border:1px solid #c8b67f;transform:rotate(2deg);color:#43614d;display:grid;gap:4px}.edition-stamp span,.edition-stamp small{font-size:9px;letter-spacing:1px}.edition-stamp strong{font:800 25px var(--serif);color:#99773c}.ranking-shell{background:white;border:1px solid #e3dfd2;box-shadow:var(--shadow);border-radius:7px;overflow:hidden}.ranking-controls-top{padding:21px 25px;display:flex;justify-content:space-between;align-items:center;gap:14px;border-bottom:1px solid #ece8dc;flex-wrap:wrap}.segmented{display:inline-flex;gap:4px;background:#f2f0e9;border:1px solid #e5e0d6;padding:4px;border-radius:5px}.seg{background:transparent;border:0;padding:11px 15px;font-size:11px;font-weight:850;color:#6e796f;border-radius:3px}.seg.active{color:#fff5d9;background:#164935;box-shadow:0 3px 8px #173d302a}.source-indicator{font-size:10px;color:#778179;font-weight:800}.source-dot{width:7px;height:7px;margin-right:5px;background:#caa666;box-shadow:none}.source-warning{background:#fcf8ed;display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid #eadfc7;padding:13px 25px}.source-warning p{font-size:11px;color:#6c664f;line-height:1.65;margin:0}.source-warning strong{color:#7d6535}.source-warning a{text-decoration:underline;text-underline-offset:2px;font-weight:750}.info-glyph{display:grid;place-items:center;border-radius:50%;background:#dec58a;color:#4e4128;width:19px;height:19px;flex-shrink:0;font:bold 13px var(--serif)}.filter-grid{display:grid;grid-template-columns:1.7fr .8fr .8fr 1.3fr .8fr .8fr 1fr;gap:10px;padding:24px 25px 15px}.field{display:grid;gap:7px;min-width:0}.field>span,.compare-pickers label,.import-actions{font-size:10px;letter-spacing:.6px;font-weight:850;color:#546d59}.field input,.field select,.compare-pickers select{border:1px solid #d7dbd2;background:#f7f8f4;border-radius:4px;min-height:43px;padding:0 12px;color:#243e2c;width:100%;font-size:12px;font-weight:600;outline-offset:1px}.field input:focus,.field select:focus{border-color:#a88b51;box-shadow:0 0 0 3px #d9bc7928}.field input::placeholder{color:#92a098}.input-icon{position:relative}.input-icon input{padding-left:35px}.input-icon svg{position:absolute;left:12px;top:13px;width:16px;height:16px;fill:none;stroke:#7f9383;stroke-width:2}.table-tools{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:2px 25px 15px;flex-wrap:wrap}.tool-caption{font-size:11px;color:#7c887b}.small-diamond{color:#a98646;margin-right:7px}.tool-actions{display:flex;align-items:center;gap:17px;flex-wrap:wrap}.checkbox-label{font-size:11px;font-weight:700;color:#637067;display:flex;align-items:center;gap:7px;cursor:pointer}.checkbox-label input{accent-color:#28664c;width:15px;height:15px}.text-button{border:0;background:transparent;color:#427053;font-size:11px;font-weight:850;text-decoration:underline;text-underline-offset:3px;padding:5px}.table-scroller{overflow:auto;width:100%}.rank-table,.calc-table{border-collapse:collapse;width:100%;min-width:650px}.rank-table th{height:49px;background:#e6eee5;color:#4c6951;text-align:left;font-size:10px;letter-spacing:1px;font-weight:950;text-transform:uppercase;padding:0 18px}.rank-table th:first-child,.rank-table td:first-child{padding-left:26px;width:75px}.rank-table th:nth-child(2){width:38%}.rank-table td{padding:13px 18px;height:74px;border-bottom:1px solid #edf0e9;font-size:12px;color:#566959}.rank-table tbody tr{transition:background .2s}.rank-table tbody tr:hover{background:#f4f7ef}.rank-table tbody tr:last-child td{border-bottom:0}.rank-table .right,.calc-table .right{text-align:right}.rank-number{display:inline-grid;place-items:center;background:#e8eee5;color:#54705b;min-width:31px;height:31px;border-radius:3px;font-weight:900}.rank-number.rank-first{background:linear-gradient(140deg,#b38b42,#efdfb3);color:#322816}.rank-number.rank-second{background:#d6dcdd;color:#344b4b}.rank-number.rank-third{background:#e6cbac;color:#62472e}.club-identity{display:flex;align-items:center;gap:12px}.club-monogram{display:grid;place-items:center;flex-shrink:0;width:41px;height:41px;border:1px solid #bea871;background:#11372b;color:#e7cf9a;border-radius:4px;font:800 11px var(--serif);letter-spacing:-.5px}.club-name{font-size:13px;font-weight:900;color:#1b3d2a}.club-sub{font-size:10px;color:#859488;display:block;margin-top:3px}.club-link{background:none;border:0;text-align:left;padding:0;display:inline;color:inherit}.club-link:hover .club-name{text-decoration:underline;text-decoration-color:#a78c4b;text-underline-offset:3px}.point-value{font-weight:950;font-size:15px;color:#1a4831;white-space:nowrap;font-variant-numeric:tabular-nums}.gap-number{font-variant-numeric:tabular-nums;color:#728678;white-space:nowrap}.bar-track{display:block;margin-left:auto;width:130px;height:8px;background:#dce6db;border-radius:20px;overflow:hidden}.bar-fill{display:block;height:100%;border-radius:20px;background:linear-gradient(90deg,#53775b,#c7a568)}.table-foot{display:flex;justify-content:space-between;gap:16px;padding:17px 25px;background:#f9f9f6;border-top:1px solid #edf0e9;font-size:10px;color:#819184;line-height:1.6}.empty-state{padding:50px 20px;text-align:center;border-top:1px solid #e9ede6}.empty-icon{font:55px var(--serif);color:#aa915e}.empty-state h3{font:700 25px var(--serif);margin:9px 0;color:#31503e}.empty-state p{font-size:12px;line-height:1.7;color:#6d7f70;max-width:500px;margin:0 auto 18px}.empty-cell{text-align:center;padding:20px}
+.analytics-section{background:#eeede5;background-image:radial-gradient(circle at 95% 10%,#c9d9bc88,transparent 37%)}.analytics-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:22px}.light-card{background:white;border:1px solid #e0dfd2;border-radius:6px;padding:27px;box-shadow:0 16px 55px #1d35250b;min-height:430px}.card-top{display:flex;align-items:center;justify-content:space-between}.card-eyebrow{font-size:10px;letter-spacing:1.45px;color:#9f834a;font-weight:950}.corner-star{font-size:29px;color:#c09c57}.light-card h3{font:750 28px var(--serif);margin:7px 0 8px;color:#294434}.light-card p{font-size:12px;color:#758073;margin:0 0 20px;line-height:1.6}.bars{display:grid;gap:12px}.bar-line{display:grid;grid-template-columns:100px 1fr 72px;gap:10px;align-items:center;font-size:11px;color:#456453;font-weight:800}.bar-line-name{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.bar-line-track{background:#e4ebe0;height:10px;position:relative;border-radius:20px;overflow:hidden}.bar-line-fill{position:absolute;left:0;top:0;bottom:0;border-radius:20px;background:linear-gradient(90deg,#174d36,#9cbb7f)}.bar-line:first-child .bar-line-fill{background:linear-gradient(90deg,#a27b36,#e0c17d)}.bar-line-value{text-align:right;font-variant-numeric:tabular-nums;font-weight:900}.compare-pickers{display:grid;grid-template-columns:1fr 38px 1fr;gap:10px;align-items:end}.compare-pickers label{display:grid;gap:7px}.versus{display:grid;place-items:center;width:34px;height:43px;font:italic 700 14px var(--serif);color:#b99a5a}.comparison-output{margin-top:22px;background:#f3f5ef;border:1px solid #e4e8dc;border-radius:4px;padding:20px}.compare-names{display:flex;justify-content:space-between;gap:10px;font-weight:850;font-size:12px;color:#264a35}.compare-names span:last-child{text-align:right}.compare-scale{height:14px;display:flex;margin:14px 0 11px;border-radius:18px;overflow:hidden;background:#d9e6d8}.compare-scale span:first-child{background:#d3b36e}.compare-scale span:last-child{background:#2d694b}.compare-scores{display:flex;justify-content:space-between;gap:10px;font-size:17px;font-weight:950;color:#213e2d}.compare-description{font-size:11px;line-height:1.6;color:#6b7b6b;margin-top:17px}.global-ribbon{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:24px;background:#143a2c;color:#e5eedc;padding:36px 39px;border-radius:5px;position:relative;overflow:hidden}.global-ribbon:after{content:"";position:absolute;right:-55px;top:-150px;width:350px;height:350px;border:1px solid #b9bc7750;border-radius:50%;pointer-events:none}.global-ribbon .eyebrow{font-size:9px;margin:0 0 10px}.global-ribbon h3{font:750 30px var(--serif);margin:0 0 9px}.global-ribbon p{font-size:12px;color:#c8d8c4;line-height:1.7;margin:0;max-width:500px}.global-flags{display:grid;grid-template-columns:1fr 1fr;gap:10px;z-index:1;align-content:center}.global-flags span{border:1px solid #cfdbb83b;background:#12342680;padding:15px 17px;font-size:11px;font-weight:900;letter-spacing:.75px}.global-flags b{display:block;color:#a5b7a4;font-size:9px;letter-spacing:1px;margin-top:8px;font-weight:650}.global-flags .country-live{border-color:#dfc07e;color:#f2d696}.global-flags .country-live b{color:#b6e6b2}
+.calculator-section{background:radial-gradient(ellipse at 91% 15%,#28684480 0%,transparent 37%),linear-gradient(145deg,#082119,#16452f 72%,#0c2b20);color:#f0ead4}.section-head-inverse h2{color:#f7edd1}.section-head-inverse h2 em{color:#dfbd79}.section-head-inverse .section-deck{color:#bad0bd}.technical-stamp{color:#e0d1aa;border:1px solid #d5b87576;padding:12px 24px;min-width:135px;display:grid;text-align:center;gap:4px}.technical-stamp span,.technical-stamp small{font-size:9px;letter-spacing:1.1px}.technical-stamp strong{font:italic 700 28px var(--serif);color:#e6cc90}.calc-grid{display:grid;grid-template-columns:1fr .95fr;gap:0;border:1px solid #a9bc9b3e;box-shadow:0 20px 60px #00140b63}.calc-form-panel{background:#f9f8f1;color:#274632;padding:32px 34px}.calc-panel-heading{display:flex;align-items:center;gap:15px;margin-bottom:24px}.number-tab{font:bold 25px var(--serif);color:#b69b5e;border:1px solid #ccb77e;padding:10px}.calc-panel-heading h3{font:750 25px var(--serif);margin:0 0 3px}.calc-panel-heading p{font-size:11px;color:#849182;margin:0}.calc-form-panel .field{margin-bottom:18px}.calc-double{display:grid;grid-template-columns:1fr 1fr;gap:16px}.calc-help{background:#ecf2e9;border-left:3px solid #bb995b;color:#5b745e;font-size:11px;line-height:1.7;padding:13px}.rhe-check{margin:4px 0 15px}.calc-result-panel{background:radial-gradient(circle at 78% 20%,#32754d83,transparent 60%),#103b2b;padding:43px 44px;color:#fff;position:relative;overflow:hidden}.calc-result-panel:after{content:"";position:absolute;width:280px;height:280px;border:1px solid #d0b36725;border-radius:50%;right:-155px;top:-130px;pointer-events:none}.result-label{font-size:10px;font-weight:950;letter-spacing:1.5px;color:#cfceae}.result-number{font-size:clamp(34px,4vw,59px);font-weight:950;letter-spacing:-2px;color:#f8e4ae;margin:29px 0 4px;font-variant-numeric:tabular-nums;word-break:break-word}.result-unit{font-size:10px;font-weight:950;letter-spacing:2px;color:#adcfaa}.result-divider{height:1px;background:#d6dfbc33;margin:30px 0 22px}.result-facts{display:grid;gap:16px;margin:0}.result-facts div{display:flex;justify-content:space-between;gap:10px;align-items:center}.result-facts dt{font-size:11px;color:#b0c8b6}.result-facts dd{margin:0;font-size:12px;font-weight:900;color:#f5e3b4;text-align:right}.calc-rule{background:#031f17a8;color:#e1dbac;padding:17px 15px;border:1px solid #adc18b36;border-radius:3px;font:13px var(--serif);margin-top:27px;text-align:center;overflow-wrap:anywhere}.calc-result-panel>p{font-size:10px;line-height:1.6;color:#afc9b0}.formula-table-wrapper{margin-top:22px;background:#f9faf6;border:1px solid #b7c9b72b;color:#244631;border-radius:4px;overflow:hidden}.formula-table-head{padding:21px 25px;display:flex;justify-content:space-between;align-items:center;gap:15px;background:#ecf3e9}.formula-table-head h3{font:750 23px var(--serif);margin:7px 0 0}.formula-table-head>span{font-size:11px;color:#68866d}.calc-table th{background:#d7e4d5;color:#3c6449;text-align:left;padding:12px 25px;letter-spacing:1px;font-size:10px;text-transform:uppercase}.calc-table td{padding:13px 25px;font-size:12px;border-bottom:1px solid #e6eee2;color:#355440}.calc-table td:last-child{font-weight:900;color:#275d3a;font-variant-numeric:tabular-nums}.calc-table tbody tr:nth-child(even){background:#f2f5ef}.calc-table tr:last-child td{border:0}
+.audit-section{background:#f7f4ec}.audit-overview{display:grid;grid-template-columns:1fr 1fr 1fr 1.3fr;gap:12px;background:#193b2b;padding:26px 31px;margin-bottom:35px;border-radius:4px}.audit-overview>div{border-right:1px solid #f3e2bc25}.audit-overview>div:last-child{border:0}.audit-overview strong{font-size:38px;color:#f0d89b;display:block}.audit-overview span{font-size:10px;color:#c8d6c5;font-weight:700}.audit-meter{padding-left:20px;align-self:center}.audit-meter>span{font-size:10px;letter-spacing:1px;font-weight:900}.audit-meter>div{background:#355a40;height:8px;border-radius:20px;margin:10px 0}.audit-meter>div i{display:block;width:87.5%;height:100%;background:#d8bc78;border-radius:20px}.audit-meter b{color:#e6d2a6;font-size:13px}.audit-top{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:15px}.audit-top h3{font:700 26px var(--serif);margin:0 0 6px}.audit-top p{font-size:11px;color:#768176;margin:0}.audit-top .field{width:240px}.audit-list{display:grid;gap:9px}.audit-row{background:white;border:1px solid #e2e3d8;border-left:4px solid #a5b4a5;border-radius:4px;overflow:hidden}.audit-row.is-pending{border-left-color:#b58544}.audit-row summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:16px;padding:18px 21px}.audit-row summary::-webkit-details-marker{display:none}.audit-id{font:900 13px var(--serif);color:#967744;min-width:60px}.audit-title{font-size:12px;font-weight:900;color:#294534;flex:1}.audit-badges{display:flex;align-items:center;gap:8px}.status-chip{font-size:9px;font-weight:950;letter-spacing:.4px;background:#e5eee3;color:#406e4c;padding:7px 9px;border-radius:2px;white-space:nowrap}.status-chip.pending{background:#fff0d7;color:#93622e}.status-chip.hold{background:#ecedea;color:#62716a}.audit-chevron{color:#67836a;font-size:17px;transition:transform .2s}.audit-row[open] .audit-chevron{transform:rotate(180deg)}.audit-detail{border-top:1px solid #e9eee8;margin:0 21px;padding:15px 0 19px 76px}.audit-detail p{font-size:12px;color:#6c806f;line-height:1.7;margin:0 0 10px}.audit-detail small{color:#a1895c;font-size:10px}.audit-principle{display:flex;align-items:center;gap:19px;margin-top:24px;padding:24px;border:1px dashed #b4ad90;background:#f0ede1}.audit-principle-icon{width:54px;height:54px;display:grid;place-items:center;border-radius:50%;background:#244e35;color:#e4c47d;font-size:24px;flex-shrink:0}.audit-principle strong{font:750 20px var(--serif);color:#304c36}.audit-principle p{font-size:12px;line-height:1.65;color:#6d7b6b;margin:7px 0 0}
+.sources-section{background:#eae8dd}.sources-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.source-card{background:#fff;border:1px solid #dfe2d7;padding:27px;min-height:262px}.source-number{font:italic 700 34px var(--serif);color:#b99c62;opacity:.75}.source-card h3{font:750 24px var(--serif);margin:8px 0 11px;color:#244631}.source-pill{display:inline-block;background:#eaf0e9;padding:6px 9px;font-size:9px;letter-spacing:.5px;color:#496e50;font-weight:950}.source-pill.amber{background:#faeacd;color:#946630}.source-card p{font-size:12px;line-height:1.7;color:#708070;min-height:77px;margin:14px 0 18px}.source-card a{font-size:12px;color:#41714b;font-weight:900;text-decoration:underline;text-underline-offset:3px}.import-area{background:#123d2b;color:#edf2e1;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;margin-top:28px;padding:34px 37px;overflow:hidden}.import-copy h3{font:700 32px var(--serif);letter-spacing:-.5px;margin:10px 0 12px}.import-copy>p{font-size:12px;line-height:1.8;color:#c1d2bf;max-width:520px}.import-actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:21px}.import-label{cursor:pointer}.btn-outline-dark{color:#e6e9d8;border-color:#a9c5a358;background:transparent}.btn-outline-dark:hover{background:#ffffff18}.import-feedback{font-size:10px!important;color:#d8c591!important}.import-schema{background:#081f1a;color:#a9ddb0;border:1px solid #7baa8066;border-radius:5px;align-self:center;box-shadow:0 12px 35px #0003;overflow:hidden}.schema-top{display:flex;align-items:center;gap:6px;background:#102d24;padding:11px 16px;border-bottom:1px solid #244935}.schema-top span{width:7px;height:7px;border-radius:50%;background:#c1986f}.schema-top span:nth-child(2){background:#d6ce74}.schema-top span:nth-child(3){background:#72bd8d}.schema-top strong{margin-left:auto;color:#d0dfd2;font-size:10px;letter-spacing:1px}.import-schema pre{padding:15px 21px 18px;margin:0;overflow:auto;font-size:11px;line-height:1.7;color:#b9daab}
+.footer{background:#061a13;color:#bbceb9}.footer-inner{display:flex;justify-content:space-between;gap:25px;padding:48px 0}.footer-brand{font-size:16px;font-weight:950;letter-spacing:1px;color:#f9f3e1}.footer-brand span{color:#e4c17c}.footer p{font-size:12px;margin:9px 0 19px}.footer small{font-size:10px;color:#819c86}.footer-links{display:flex;gap:17px;align-items:start;font-size:11px;font-weight:750}.footer a:hover{color:#e8c781}.back-top{border:1px solid #c4ae7266;padding:12px 18px;align-self:start;white-space:nowrap;font-size:10px;color:#ebd49c;font-weight:900}.club-dialog{position:fixed;inset:0;margin:auto;width:min(92vw,550px);max-height:80vh;border:1px solid #d7bd7c;padding:36px;background:#0d2d22;color:#f5eed7;box-shadow:0 25px 120px #0009;overflow:auto}.club-dialog::backdrop{background:#061b15db;backdrop-filter:blur(4px)}.dialog-close{position:absolute;right:15px;top:8px;border:0;background:transparent;color:#e7d7ae;font-size:31px}.dialog-eyebrow{letter-spacing:1.8px;font-size:10px;color:#d1b77e;font-weight:900}.dialog-name{font:750 36px var(--serif);margin:9px 0 16px}.dialog-pts{font-size:40px;letter-spacing:-1px;color:#ecd399;font-weight:950}.dialog-sub{font-size:12px;color:#c2d3be;line-height:1.75}.dialog-badge{display:inline-block;padding:8px 11px;border:1px solid #bda46767;color:#e6c684;font-size:10px;letter-spacing:1px;margin-top:9px}.dialog-source{display:block;margin-top:18px;font-size:12px;text-decoration:underline;color:#e3cc96}.toast{position:fixed;z-index:50;left:50%;bottom:25px;transform:translate(-50%,120px);background:#102e23;color:#fff4d3;border:1px solid #d2b56f;padding:12px 20px;border-radius:4px;font-size:12px;box-shadow:0 20px 60px #0006;opacity:0;transition:all .3s;pointer-events:none;max-width:min(90vw,540px);text-align:center}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:1090px){.main-nav{gap:12px}.main-nav>a{font-size:10px}.container{width:min(100% - 46px,1230px)}.brand-type strong{font-size:14px}.hero h1{font-size:64px}.filter-grid{grid-template-columns:1.4fr 1fr 1.15fr}.filter-grid .field:last-child{grid-column:span 1}.rank-table th,.rank-table td{padding:12px}.rank-table th:first-child,.rank-table td:first-child{padding-left:16px}.overview-cell{padding:8px 15px}}
+@media(max-width:800px){.mobile-toggle{display:block}.header-inner{min-height:75px}.main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#0b271f;padding:15px 25px 23px;border-bottom:1px solid #d6c18a45;box-shadow:0 10px 25px #0006}.main-nav.open{display:flex;align-items:stretch;flex-direction:column;gap:0}.main-nav a{padding:12px 0;border-bottom:1px solid #ffffff16;font-size:12px}.main-nav .nav-cta{padding:12px;margin-top:10px;text-align:center}.hero-grid{grid-template-columns:1fr;position:relative;min-height:560px}.hero-art{position:absolute;opacity:.28;right:-160px;top:0;height:100%;width:500px;pointer-events:none}.hero-copy{padding:80px 0;max-width:590px}.hero h1{font-size:clamp(48px,9vw,75px)}.hero-lede{max-width:470px}.strip-inner{flex-wrap:wrap;justify-content:center;padding:10px 0;gap:15px}.strip-inner span{font-size:9px}.overview-grid{grid-template-columns:repeat(2,1fr);gap:14px}.overview-cell:nth-child(2){border:0}.overview-cell:nth-child(3){padding-left:0}.overview-cell{border-bottom:1px solid #ffffff1d;padding:12px 16px}.section{padding:66px 0}.analytics-grid,.calc-grid,.global-ribbon,.import-area{grid-template-columns:1fr}.hero-art .trophy-art{opacity:.7}.filter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.filter-grid .field:first-child{grid-column:span 2}.sources-grid{grid-template-columns:1fr 1fr}.source-card:last-child{grid-column:span 2}.source-card p{min-height:initial}.audit-overview{grid-template-columns:repeat(2,1fr)}.audit-overview>div:nth-child(2){border:0}.audit-meter{padding-left:0}.footer-inner{flex-wrap:wrap}}
+@media(max-width:580px){.container{width:min(100% - 30px,1230px)}.utility-bar{font-size:8px;letter-spacing:.6px}.utility-inner{min-height:31px}.brand-mark{width:39px;height:43px}.brand-type strong{font-size:12px}.brand-type small{font-size:8px;letter-spacing:2px}.hero{min-height:580px}.hero-grid{min-height:530px}.hero-copy{padding:55px 0 40px}.eyebrow{font-size:9px;letter-spacing:1.4px}.hero h1{font-size:clamp(42px,10vw,62px);letter-spacing:-2px}.hero .serif-gold{letter-spacing:-2px}.h1-alt{font-size:.32em;letter-spacing:.6px}.hero-lede{font-size:13px;line-height:1.7}.hero-actions{gap:10px}.hero-actions .btn{width:100%}.hero-proof{gap:13px;margin-top:25px}.hero-proof span{font-size:9px}.hero-art{right:-240px;opacity:.19}.art-caption,.art-coordinate{display:none}.hero-bottom-inner{font-size:8px}.scroll-cue{display:none}.strip-inner span{font-size:8px}.overview-grid{gap:0;padding:20px 0}.overview-figure{font-size:26px}.overview-kicker{font-size:8px}.section-head{align-items:start}.section h2{font-size:clamp(33px,8vw,43px)}.section-deck{font-size:12px}.edition-stamp,.technical-stamp{display:none}.ranking-controls-top{padding:15px}.segmented{width:100%}.seg{flex:1;padding:11px 5px;font-size:10px}.source-indicator{font-size:9px}.source-warning{padding:12px 15px}.filter-grid{padding:19px 15px 11px;gap:10px}.filter-grid .field:nth-child(4){grid-column:span 2}.field input,.field select{font-size:11px}.table-tools{padding:6px 15px 14px;align-items:start}.tool-actions{gap:10px}.table-foot{padding:13px 15px;flex-direction:column;gap:5px}.rank-table{min-width:490px}.rank-table th{font-size:9px;padding:12px 9px}.rank-table td{padding:10px 9px;height:68px}.rank-table th:first-child,.rank-table td:first-child{padding-left:12px}.rank-table .hide-sm{display:none}.club-monogram{width:34px;height:34px}.club-identity{gap:8px}.club-name{font-size:12px}.point-value{font-size:13px}.analytics-grid{gap:14px}.light-card{padding:18px;min-height:initial}.bar-line{grid-template-columns:82px 1fr 60px;gap:7px;font-size:10px}.global-ribbon{padding:22px;gap:24px}.global-flags{gap:7px}.global-flags span{padding:12px 8px;font-size:9px}.calc-form-panel{padding:23px 18px}.calc-result-panel{padding:27px 21px}.result-number{font-size:37px}.formula-table-head{padding:16px;align-items:start;flex-direction:column}.calc-table th,.calc-table td{padding:12px 16px}.audit-overview{padding:20px;gap:17px}.audit-overview strong{font-size:30px}.audit-top{align-items:stretch;flex-direction:column}.audit-top .field{width:100%}.audit-row summary{padding:15px 11px;gap:8px}.audit-id{min-width:50px;font-size:11px}.audit-title{font-size:11px}.audit-badges{gap:4px}.status-chip{font-size:8px;padding:5px 6px}.audit-detail{margin:0 10px;padding:13px 0 16px 58px}.sources-grid{grid-template-columns:1fr}.source-card:last-child{grid-column:auto}.source-card{min-height:0}.import-area{padding:23px 18px;gap:23px}.import-copy h3{font-size:27px}.footer-inner{gap:30px}.footer-links{width:100%;flex-wrap:wrap}.club-dialog{padding:26px 22px}.dialog-name{font-size:28px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+  
+  
+<script>window.RMD_SINGLE_FILE=true;</script>
+</head>
+<body>
+  <a href="#ranking" class="skip-link">Ir direto ao ranking</a>
+  <div class="utility-bar"><div class="container utility-inner"><span><span class="pulse-dot"></span> ACERVO EM CONSTRUÇÃO · BRASIL / FASE 01</span><span>ACESSO LIVRE <span class="star">✦</span> SEM ASSINATURA</span></div></div>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Início do Ranking Mundial Definitivo">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 53" fill="none"><path d="M24 2 44 9v19c0 11-9 18-20 23C13 46 4 39 4 28V9L24 2Z" stroke="currentColor" stroke-width="2"/><path d="M10 15h28M11 33h26M24 8v34" stroke="currentColor" opacity=".5"/><circle cx="24" cy="24" r="8" fill="#D8BC7A"/><path d="m24 17 5 4-2 6h-6l-2-6z" fill="#0b241e"/></svg></span>
+        <span class="brand-type"><strong>RANKING <em>MUNDIAL</em></strong><small>DEFINITIVO <span>·</span> CLUBENSE</small></span>
+      </a>
+      <button class="mobile-toggle" id="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#ranking">Ranking</a><a href="#analises">Análises</a><a href="#calculadora">Calculadora</a><a href="#auditoria">Auditoria</a><a href="#fontes">Fontes</a>
+        <a href="#ranking" class="nav-cta">Explorar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-field" aria-hidden="true"><div class="field-lines"><i class="field-center"></i><i class="field-box field-box-left"></i><i class="field-box field-box-right"></i></div></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="mini-line"></span> MEMÓRIA · ESTATÍSTICA · FUTEBOL</p>
+          <h1 id="hero-title">O FUTEBOL<br>É <span class="serif-gold">ETERNO.</span><br><span class="h1-alt">CADA PONTO TEM HISTÓRIA.</span></h1>
+          <p class="hero-lede">Uma nova casa para a grandeza dos clubes. Classificações, campanhas, critérios por colocação e pesquisa histórica — com transparência em cada número.</p>
+          <div class="hero-actions"><a href="#ranking" class="btn btn-gold">Ver ranking brasileiro <span aria-hidden="true">↗</span></a><a href="#calculadora" class="btn btn-ghost">Simular pontuação <span aria-hidden="true">→</span></a></div>
+          <div class="hero-proof"><span><b>01</b> Base provisória</span><span><b>08</b> Pendências monitoradas</span><span><b>100%</b> Gratuito</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-halo"></div><div class="art-orbit art-orbit-one"></div><div class="art-orbit art-orbit-two"></div>
+          <div class="art-glow"></div>
+          <svg class="trophy-art" viewBox="0 0 360 430" xmlns="http://www.w3.org/2000/svg" fill="none">
+            <defs><linearGradient id="cupGold" x1="30" x2="290" y1="30" y2="315" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF7D6"/><stop offset=".2" stop-color="#DABF77"/><stop offset=".49" stop-color="#AA762C"/><stop offset=".75" stop-color="#E5C37A"/><stop offset="1" stop-color="#7B4D1D"/></linearGradient><linearGradient id="cupShine" x1="68" x2="298" y1="60" y2="275"><stop stop-color="#FFF8D7" stop-opacity=".9"/><stop offset="1" stop-color="#B18B44" stop-opacity="0"/></linearGradient><filter id="cupShadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#020E09" flood-opacity=".7"/></filter></defs>
+            <g filter="url(#cupShadow)"><path d="M94 84c3 113 19 156 86 183 67-27 83-70 86-183H94Z" fill="url(#cupGold)" stroke="#F6D996" stroke-width="4"/><path d="M95 100H55c-9 0-13 7-11 18 9 65 43 94 85 96M265 100h40c9 0 13 7 11 18-9 65-43 94-85 96" stroke="url(#cupGold)" stroke-width="19" stroke-linecap="round"/><path d="M112 104c4 72 17 110 42 135" stroke="url(#cupShine)" stroke-width="13" stroke-linecap="round"/><path d="M175 268v66h-34l-9 25h96l-9-25h-34v-66" fill="url(#cupGold)"/><rect x="112" y="359" width="136" height="21" rx="5" fill="url(#cupGold)"/><rect x="96" y="380" width="168" height="17" rx="4" fill="#6C471E" stroke="#DABB77" stroke-width="2"/><circle cx="180" cy="153" r="42" stroke="#FFF0BA" stroke-width="2.5" opacity=".8"/><path d="m180 122 21 16-8 27h-26l-8-27 21-16Z" fill="#FFF6D0" opacity=".92"/><path d="m180 122-7-18m28 34 19-7m-27 34 7 19m-33-19-7 19m-1-46-19-7" stroke="#F9E9AC" stroke-width="4" opacity=".65"/></g>
+          </svg>
+          <div class="art-caption">THE BEAUTIFUL GAME <span>✦</span> SINCE 1902</div>
+          <div class="art-coordinate">RMD / 001<br>BR — WORLD</div>
+        </div>
+      </div>
+      <div class="hero-bottom"><div class="container hero-bottom-inner"><span>INTEGRIDADE HISTÓRICA EM PRIMEIRO LUGAR</span><span class="scroll-cue">DESÇA PARA EXPLORAR <span>↓</span></span></div></div>
+    </section>
+
+    <div class="gold-strip" aria-label="Características do portal"><div class="container strip-inner"><span>✦ CAMPEONATOS</span><span>✦ TODAS AS COLOCAÇÕES</span><span>✦ FONTES DOCUMENTADAS</span><span>✦ EVOLUÇÃO HISTÓRICA</span><span>✦ EXPANSÃO MUNDIAL</span></div></div>
+
+    <section class="overview-section"><div class="container">
+      <div class="overview-grid">
+        <div class="overview-cell"><span class="overview-kicker">BASE DE REFERÊNCIA</span><div class="overview-figure"><span id="stat-clubs">10</span><small>clubes</small></div><p>Recorte de pontos publicados</p></div>
+        <div class="overview-cell"><span class="overview-kicker">MAIOR PONTUAÇÃO DA FONTE</span><div class="overview-figure" id="stat-leader">6.307,3</div><p>Sem conversão para pesos CLUBENSE</p></div>
+        <div class="overview-cell"><span class="overview-kicker">DECISÕES DO PROJETO</span><div class="overview-figure">07<span class="stat-div">/08</span></div><p>Uma pendência sem deliberação</p></div>
+        <div class="overview-cell"><span class="overview-kicker">NOVA FRONTEIRA</span><div class="overview-figure"><span class="gold-small">MUNDO</span></div><p>Arquitetura pronta para novos países</p></div>
+      </div>
+    </div></section>
+
+    <section class="section ranking-section" id="ranking" aria-labelledby="ranking-title"><div class="container">
+      <div class="section-head"><div><p class="eyebrow dark-eye">01 / A CLASSIFICAÇÃO</p><h2 id="ranking-title">A corrida pela <em>história.</em></h2><p class="section-deck">Dados públicos de referência, sem alterar seus pontos. A metodologia CLUBENSE será incorporada em uma base distinta, após auditoria.</p></div><div class="edition-stamp"><span>EDIÇÃO INICIAL</span><strong>BRASIL</strong><small>Fonte: 01 NOV 2026</small></div></div>
+      <div class="ranking-shell">
+        <div class="ranking-controls-top"><div class="segmented" role="group" aria-label="Conjunto de dados"><button class="seg active" id="dataset-reference" type="button" aria-pressed="true">Ranking de referência</button><button class="seg" id="dataset-local" type="button" aria-pressed="false">Base local / futura</button></div><div class="source-indicator"><span class="source-dot"></span><span id="source-label">10 posições verificadas · fonte externa</span></div></div>
+        <div class="source-warning" id="source-warning"><span class="info-glyph">i</span><p><strong>Base provisória externa.</strong> Os pontos são reproduzidos conforme a classificação pública do site de referência. Não constituem créditos homologados do CLUBENSE. <a href="https://rankinghistorico.com.br/" target="_blank" rel="noopener noreferrer">Consultar origem ↗</a></p></div>
+        <div class="filter-grid">
+          <label class="field"><span>Pesquisar clube</span><div class="input-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg><input id="filter-search" type="search" placeholder="Nome do clube..." autocomplete="off"></div></label>
+          <label class="field"><span>País</span><select id="filter-country"><option value="">Todos os países</option></select></label>
+          <label class="field"><span>Estado</span><select id="filter-state"><option value="">Todos os estados</option></select></label>
+          <label class="field"><span>Competição</span><select id="filter-comp"><option value="">Todas as competições</option></select></label>
+          <label class="field"><span>Ano histórico</span><input id="filter-year" type="number" min="1902" max="2100" step="1" inputmode="numeric" placeholder="Todos os anos"></label>
+          <label class="field"><span>Década</span><select id="filter-decade"><option value="">Todas as décadas</option></select></label>
+          <label class="field"><span>Ordenação</span><select id="filter-sort"><option value="points">Maior pontuação</option><option value="name">Nome A–Z</option><option value="state">Estado A–Z</option></select></label>
+        </div>
+        <div class="table-tools"><div class="tool-caption"><span class="small-diamond">◆</span><span id="rows-note">10 clubes no recorte público</span></div><div class="tool-actions"><label class="checkbox-label"><input id="podium-only" type="checkbox"> Apenas pódio</label><button class="text-button" id="clear-filters" type="button">Limpar filtros</button><button class="text-button" id="export-csv" type="button">↓ CSV</button></div></div>
+        <div class="table-scroller"><table class="rank-table" aria-label="Ranking histórico brasileiro de referência"><thead><tr><th scope="col">Pos.</th><th scope="col">Clube</th><th scope="col">UF</th><th scope="col" class="right">Pontuação</th><th scope="col" class="right">Diferença do líder</th><th scope="col" class="right hide-sm">Representação</th></tr></thead><tbody id="ranking-body"><tr><td colspan="6" class="empty-cell">Carregando classificação…</td></tr></tbody></table></div>
+        <div class="empty-state" id="rank-empty" hidden><div class="empty-icon">⌁</div><h3 id="rank-empty-title">Sem dados para este recorte</h3><p id="rank-empty-message">Tente remover os filtros.</p><button type="button" class="btn btn-gold btn-small" id="empty-clear">Limpar filtros</button></div>
+        <div class="table-foot"><span id="table-foot-label">Snapshot externo · 01/11/2026</span><span>Monogramas são identificadores neutros, não escudos oficiais.</span></div>
+      </div>
+    </div></section>
+
+    <section class="section analytics-section" id="analises" aria-labelledby="analytics-title"><div class="container">
+      <div class="section-head"><div><p class="eyebrow dark-eye">02 / LEITURA DOS NÚMEROS</p><h2 id="analytics-title">Os números <em>em perspectiva.</em></h2><p class="section-deck">Comparações honestas entre os clubes do recorte. Sem deduzir resultados, temporadas ou títulos a partir do total.</p></div></div>
+      <div class="analytics-grid">
+        <div class="light-card chart-card"><div class="card-top"><span class="card-eyebrow">DISTRIBUIÇÃO DE PONTOS</span><span class="corner-star">✳</span></div><h3>Top 10 da referência</h3><p>Escala relativa ao líder do recorte</p><div class="bars" id="top-bars"></div></div>
+        <div class="light-card compare-card"><div class="card-top"><span class="card-eyebrow">COMPARADOR</span><span class="corner-star">✳</span></div><h3>Clube contra clube</h3><p>Compare as pontuações agregadas, sem inferir confrontos</p>
+          <div class="compare-pickers"><label>CLUBE A<select id="compare-a"></select></label><span class="versus">VS</span><label>CLUBE B<select id="compare-b"></select></label></div>
+          <div class="comparison-output" id="comparison-output"></div>
+        </div>
+      </div>
+      <div class="global-ribbon"><div><span class="eyebrow">ARQUITETURA MULTIPAÍS</span><h3>Do Brasil para o mundo.</h3><p>A estrutura aceita país, temporada, edição, colocação e fonte. Hoje somente o recorte brasileiro está preenchido. Nenhum clube estrangeiro foi inventado.</p></div><div class="global-flags"><span class="country-live">BR <b>ATIVO</b></span><span>AMÉRICAS <b>PLANEJADO</b></span><span>EUROPA <b>PLANEJADO</b></span><span>ÁFRICA / ÁSIA <b>PLANEJADO</b></span></div></div>
+    </div></section>
+
+    <section class="section calculator-section" id="calculadora" aria-labelledby="calc-title"><div class="container">
+      <div class="section-head section-head-inverse"><div><p class="eyebrow">03 / MOTOR CLUBENSE v1.6</p><h2 id="calc-title">Quanto vale <em>cada posição?</em></h2><p class="section-deck">Simule pontos canônicos de ligas e eliminatórias. A calculadora é independente do ranking provisório importado.</p></div><div class="technical-stamp"><span>MODELO</span><strong>v1.6</strong><small>Emenda 006</small></div></div>
+      <div class="calc-grid">
+        <div class="calc-form-panel"><div class="calc-panel-heading"><span class="number-tab">01</span><div><h3>Configure o cenário</h3><p>Valores teóricos · sem lançamento contábil</p></div></div>
+          <label class="field"><span>Competição / valor-base</span><select id="calc-comp"></select></label>
+          <div class="calc-double"><label class="field" id="calc-n-wrap"><span>Clubes participantes</span><input id="calc-n" type="number" value="20" min="2" max="128" step="1"></label><label class="field" id="calc-p-wrap"><span>Colocação final</span><input id="calc-p" type="number" value="4" min="1" max="128" step="1"></label></div>
+          <div id="cup-controls" hidden><label class="field"><span>Fase eliminatória</span><select id="calc-phase"><option value="champion">Campeão · 100%</option><option value="runner_up">Vice · 50%</option><option value="semifinal">Eliminado na semifinal · teto 30%</option><option value="quarterfinal">Eliminado nas quartas · teto 15%</option><option value="round_16">Eliminado nas oitavas · teto 7,5%</option><option value="round_32">Eliminado nos 32 avos · teto 3,75%</option><option value="round_64">Eliminado nos 64 avos · teto 1,875%</option></select></label>
+             <label class="checkbox-label rhe-check"><input id="rhe-toggle" type="checkbox"> Aplicar RHE (se a ordenação documental existir)</label>
+             <div class="calc-double" id="rhe-fields" hidden><label class="field"><span>Ordem j (eliminado)</span><input id="calc-j" type="number" value="1" min="1" max="256" step="1"></label><label class="field"><span>Total m (eliminados)</span><input id="calc-m" type="number" value="4" min="1" max="256" step="1"></label></div>
+          </div>
+          <div class="calc-help" id="calc-help">A classificação final e o número de clubes devem estar documentados em uma aplicação real.</div>
+        </div>
+        <div class="calc-result-panel"><div class="result-label">PONTUAÇÃO CALCULADA</div><div class="result-number" id="calc-result">31.814,81</div><div class="result-unit">PONTOS TEÓRICOS</div><div class="result-divider"></div><dl class="result-facts"><div><dt>Valor do campeão</dt><dd id="calc-base">50.000,00</dd></div><div><dt>Percentual aplicado</dt><dd id="calc-percent">63,63%</dd></div><div><dt>Condição de crédito</dt><dd id="calc-status">SIMULAÇÃO</dd></div></dl><div class="calc-rule" id="calc-rule">P(p) = V × [0,02 + 0,78 × ((N−p)/(N−2))²]</div><p id="calc-explanation">A simulação não certifica uma edição histórica.</p></div>
+      </div>
+      <div class="formula-table-wrapper"><div class="formula-table-head"><div><span class="card-eyebrow">TABELA COMPLETA</span><h3>Distribuição por posição ou fase</h3></div><span id="calc-table-desc">20 participantes · valor-base 50.000</span></div><div class="table-scroller"><table class="calc-table" aria-label="Valores da calculadora por colocação"><thead><tr><th>Posição / fase</th><th class="right">Percentual</th><th class="right">Pontuação</th></tr></thead><tbody id="calc-table-body"></tbody></table></div></div>
+    </div></section>
+
+    <section class="section audit-section" id="auditoria" aria-labelledby="audit-title"><div class="container">
+      <div class="section-head"><div><p class="eyebrow dark-eye">04 / DOCUMENTAÇÃO E GOVERNANÇA</p><h2 id="audit-title">A verdade <em>antes do troféu.</em></h2><p class="section-deck">Cada decisão histórica permanece rastreável. Aprovar uma regra não significa liberar pontos, homologar uma temporada ou corrigir registros automaticamente.</p></div></div>
+      <div class="audit-overview"><div><strong>07</strong><span>Diretrizes aprovadas</span></div><div><strong>01</strong><span>Sem deliberação</span></div><div><strong>00</strong><span>Créditos liberados neste ato</span></div><div class="audit-meter"><span>PROCESSO DECISÓRIO</span><div><i></i></div><b>87,5%</b></div></div>
+      <div class="audit-top"><div><h3>Registro de decisões</h3><p>02 de novembro de 2026 · decisões C aprovadas, exceto 1905/1906</p></div><label class="field"><span>Filtrar pendências</span><select id="audit-filter"><option value="all">Todas (8)</option><option value="approved">Aprovadas (7)</option><option value="pending">Sem decisão (1)</option><option value="hold">Com HOLD / ND</option></select></label></div>
+      <div class="audit-list" id="audit-list"></div>
+      <div class="audit-principle"><div class="audit-principle-icon">⚖</div><div><strong>Princípio de integridade</strong><p>ND não equivale a zero. HOLD não significa inexistência histórica. Não serão aceitos escudos inventados, campanhas presumidas ou pontos sem fonte e liberação.</p></div></div>
+    </div></section>
+
+    <section class="section sources-section" id="fontes" aria-labelledby="sources-title"><div class="container"><div class="section-head"><div><p class="eyebrow dark-eye">05 / FONTES E IMPORTAÇÃO</p><h2 id="sources-title">Dados com <em>procedência.</em></h2><p class="section-deck">Um ranking só merece confiança quando cada número admite conferência e substituição controlada.</p></div></div>
+      <div class="sources-grid">
+       <article class="source-card"><div class="source-number">01</div><h3>Ranking de referência</h3><span class="source-pill amber">EXTERNO · PROVISÓRIO</span><p>Dez pontuações cumulativas exibidas publicamente em 01/11/2026. Não contém desagregação recuperada por temporada ou torneio.</p><a href="https://rankinghistorico.com.br/" target="_blank" rel="noopener noreferrer">Abrir site de origem ↗</a></article>
+       <article class="source-card"><div class="source-number">02</div><h3>Motor CLUBENSE</h3><span class="source-pill">CANÔNICO · SIMULAÇÃO</span><p>Fórmula quadrática para ligas, tetos das fases eliminatórias e RHE. Independente da pontuação externa, sem integração automática no acumulado.</p><a href="#calculadora">Conferir fórmula ↗</a></article>
+       <article class="source-card"><div class="source-number">03</div><h3>Governança histórica</h3><span class="source-pill">7 DE 8 DECISÕES</span><p>Diretrizes escolhidas em 02/11/2026. Os bloqueios C07/C23 e a pendência de 1905/1906 permanecem respeitados.</p><a href="#auditoria">Ver decisões ↗</a></article>
+      </div>
+      <div class="import-area"><div class="import-copy"><span class="card-eyebrow">IMPORTAÇÃO LOCAL · SEM SERVIDOR PAGO</span><h3>Pronto para receber o ranking auditado.</h3><p>Carregue um JSON com clubes e pontos ou campanhas detalhadas, sem substituir a referência original. Os dados importados permanecem neste navegador e não são publicados automaticamente.</p><div class="import-actions"><label for="import-file" class="btn btn-gold btn-small import-label">↑ Importar arquivo JSON</label><input type="file" id="import-file" accept=".json,application/json" hidden><button type="button" class="btn btn-outline-dark btn-small" id="download-model">↓ Modelo de dados</button><button type="button" class="btn btn-outline-dark btn-small" id="reset-local">Limpar base local</button></div><p class="import-feedback" id="import-feedback" role="status">Nenhuma base adicional importada.</p></div><div class="import-schema" aria-hidden="true"><div class="schema-top"><span></span><span></span><span></span><strong>campanhas.json</strong></div><pre>{
+  "campaigns": [
+    {
+      "team": "Clube",
+      "club_id": "id-unico",
+      "country": "BR",
+      "year": 1902,
+      "competition": "Estadual",
+      "position": 1,
+      "status": "HOMOLOGADO",
+      "points": 10000
+    }
+  ]
+}</pre></div></div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><div><div class="footer-brand">RANKING <span>MUNDIAL</span> DEFINITIVO</div><p>Futebol histórico. Matemática aberta. Memória preservada.</p><small>Projeto editorial original CLUBENSE · Dados de terceiros atribuídos à origem · 2026</small></div><div class="footer-links"><a href="#ranking">Ranking</a><a href="#calculadora">Pontuação</a><a href="#auditoria">Auditoria</a><a href="#fontes">Proveniência</a></div><a href="#inicio" class="back-top">↑ TOPO</a></div></footer>
+  <dialog class="club-dialog" id="club-dialog" aria-labelledby="dialog-title"><button class="dialog-close" id="dialog-close" type="button" aria-label="Fechar ficha do clube">×</button><div id="dialog-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>/* Gerado de data/*.json pelo build.py */
+window.RMD_SEED={"reference":{"id":"ranking-historico-referencia-2026-11-01","label":"Ranking Histórico — recorte publicado","origin":"https://rankinghistorico.com.br/","captured_at":"2026-11-02","published_as_of":"2026-11-01","coverage":"Dez clubes apresentados na seção Ranking histórico da página inicial","scope":"BR","granularity":"aggregate","approval":"PROVISORIO_EXTERNO","methodology":"Pontuação original da fonte, não recalculada pelo CLUBENSE","limitations":["O recorte não inclui os demais clubes","Não há discriminação dos pontos por ano, competição e campanha","Não pode ser apresentado como ranking auditado do CLUBENSE"],"teams":[{"rank":1,"id":"palmeiras","name":"Palmeiras","uf":"SP","country":"BR","points":6307.3},{"rank":2,"id":"flamengo","name":"Flamengo","uf":"RJ","country":"BR","points":6286.3},{"rank":3,"id":"sao-paulo","name":"São Paulo","uf":"SP","country":"BR","points":5812.6},{"rank":4,"id":"gremio","name":"Grêmio","uf":"RS","country":"BR","points":5347.4},{"rank":5,"id":"corinthians","name":"Corinthians","uf":"SP","country":"BR","points":5281.9},{"rank":6,"id":"santos","name":"Santos","uf":"SP","country":"BR","points":5147.4},{"rank":7,"id":"internacional","name":"Internacional","uf":"RS","country":"BR","points":4761.2},{"rank":8,"id":"cruzeiro","name":"Cruzeiro","uf":"MG","country":"BR","points":4750.5},{"rank":9,"id":"atletico-fonte","name":"Atlético","uf":"ND","country":"BR","points":4447.4,"note":"Nome abreviado como publicado na fonte; identificação completa não verificada neste recorte."},{"rank":10,"id":"fluminense","name":"Fluminense","uf":"RJ","country":"BR","points":3930.4}]},"decisions":{"date":"2026-11-02","basis":"CLUBENSE — Prompt Mestre v1.6 + Emenda Canônica 006","scope":"Regras para publicação do site; não homologam créditos","decisions":[{"id":"C07/C23","title":"Créditos internacionais","decision":"C","status":"HOLD","short":"Exibir matrizes e resultados documentados; não somar até liberação formal.","detail":"Créditos internacionais permanecem excluídos do acumulado oficial até a liberação documental exigida."},{"id":"REG","title":"Regionais históricos incompletos","decision":"C","status":"AUDITORIA","short":"Analisar cada edição; pontuar somente colocações comprovadas.","detail":"Dados incompletos não autorizam inferir colocação ou crédito; demais registros permanecem HOLD."},{"id":"1905-1906","title":"Temporadas 1905 e 1906","decision":null,"status":"SEM DECISAO","short":"Manter as condições documentais anteriores.","detail":"Nenhuma das alternativas A/B/C foi aprovada. Não homologar créditos por pressuposição."},{"id":"1902-1904","title":"Divergências de placares — 1902 e 1904","decision":"C","status":"AUDITORIA","short":"Preservar todas as versões e auditar antes de retificar.","detail":"Hierarquia de fontes e trilha de versões exigidas para qualquer alteração de placar ou pontuação."},{"id":"PARA","title":"Competições paraenses — 1908/1910","decision":"C","status":"ND/HOLD","short":"Cadastrar as edições e pontuar só as colocações comprovadas.","detail":"É proibido distribuir reserva hipotética ou atribuir classificações presumidas."},{"id":"1918","title":"Temporada de 1918","decision":"C","status":"INCOMPLETA","short":"Publicar registros comprovados e lacunas; não homologar ranking anual integral.","detail":"O ranking anual não poderá ser denominado integral até reconstrução suficiente da base."},{"id":"1919","title":"Grêmio — retificação de 1919","decision":"C","status":"PENDENTE","short":"Confrontar fontes e aplicar só após conciliação formal.","detail":"O ajuste preparado de -1.000 pontos permanece não lançado no livro-razão."},{"id":"ESCUDOS","title":"Escudos históricos","decision":"C","status":"AUTENTICACAO","short":"Usar apenas emblemas reais autenticados, datados e com direitos respeitados.","detail":"Na ausência de autenticidade e permissão verificadas, usar identificação tipográfica neutra."}]},"canonical":{"name":"CLUBENSE — Calculadora matemática de colocações","version":"1.6 + Emenda 006","note":"Valores simulados não entram automaticamente no livro-razão. Competições internacionais sujeitas a C07/C23 em HOLD.","league_formula":"P(1)=V; P(p)=V[0.02+0.78((N-p)/(N-2))^2] para N>=3 e 2<=p<=N; para N=2 usar 100% e 80%","knockout_phase_ceiling":{"champion":1,"runner_up":0.5,"semifinal":0.3,"quarterfinal":0.15,"round_16":0.075,"round_32":0.0375,"round_64":0.01875},"rhe":"P(j)=U*(1-(j-1)/(2*m)), com classificação por eliminador documentada","competitions":[{"id":"br-a","name":"Brasileirão — Série A","base":50000,"type":"league","group":"Nacional"},{"id":"br-b","name":"Brasileirão — Série B","base":25000,"type":"league","group":"Nacional"},{"id":"br-c","name":"Brasileirão — Série C","base":12500,"type":"league","group":"Nacional"},{"id":"br-d","name":"Brasileirão — Série D","base":6250,"type":"league","group":"Nacional"},{"id":"estadual-a","name":"Estadual — 1ª divisão","base":10000,"type":"league","group":"Estadual"},{"id":"estadual-b","name":"Estadual — 2ª divisão","base":5000,"type":"league","group":"Estadual"},{"id":"estadual-c","name":"Estadual — 3ª divisão","base":2500,"type":"league","group":"Estadual"},{"id":"copa-br","name":"Copa do Brasil","base":40000,"type":"knockout","group":"Nacional"},{"id":"copa-campeoes","name":"Copa dos Campeões","base":20000,"type":"knockout","group":"Nacional"},{"id":"copa-nordeste","name":"Copa do Nordeste","base":20000,"type":"knockout","group":"Regional"},{"id":"copa-verde","name":"Copa Verde","base":20000,"type":"knockout","group":"Regional"},{"id":"supercopa-br","name":"Supercopa nacional","base":10000,"type":"knockout","group":"Nacional"},{"id":"copa-estadual","name":"Copa estadual autônoma","base":2000,"type":"knockout","group":"Estadual"},{"id":"torneio-inicio","name":"Torneio Início autônomo","base":2000,"type":"knockout","group":"Estadual"},{"id":"libertadores","name":"Libertadores — principal continental","base":100000,"type":"knockout","group":"Internacional","hold":true},{"id":"sulamericana","name":"Sul-Americana — secundária continental","base":50000,"type":"knockout","group":"Internacional","hold":true},{"id":"recopa","name":"Recopa continental","base":25000,"type":"knockout","group":"Internacional","hold":true},{"id":"mundial-anual","name":"Mundial anual / Intercontinental","base":200000,"type":"knockout","group":"Internacional","hold":true},{"id":"mundial-especial","name":"Mundial global especial","base":300000,"type":"knockout","group":"Internacional","hold":true},{"id":"copa-rio","name":"Copa Rio 1951/1952 — cenário canônico","base":200000,"type":"knockout","group":"Internacional","hold":true}]},"campaigns":{"status":"SEM_DADOS_DESAGREGADOS","description":"Sem campanhas por ano/competição importadas da fonte externa. Não inferir desagregações a partir do total do clube.","campaigns":[]}};
+</script><script>/*
+ * RANKING MUNDIAL DEFINITIVO — original frontend, vanilla JS, no paid service.
+ * IMPORTANT: the published external ranking is a snapshot, NOT CLUBENSE credits.
+ * Historical filters must never fabricate granular data from aggregate totals.
+ */
+(function () {
+  'use strict';
+  const seed = window.RMD_SEED;
+  if (!seed || !seed.reference || !seed.canonical || !seed.decisions) {
+    document.body.insertAdjacentHTML('afterbegin','<p style="background:#fff1d5;padding:20px;color:#593915">Não foi possível carregar os dados locais.</p>');
+    return;
+  }
+  const $ = (id) => document.getElementById(id);
+  let DATA = seed;
+  const STORE_KEY = 'rmd-local-data-v1';
+  const fmt = (n, digits = 1) => Number(n).toLocaleString('pt-BR', { minimumFractionDigits: digits, maximumFractionDigits: digits });
+  const fold = (s) => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' })[c]);
+  const state = { dataset:'reference', imported:null, search:'', country:'', uf:'', competition:'', year:'', decade:'', sort:'points', podium:false, compareA:'', compareB:'' };
+  const monograms = { palmeiras:'PAL', flamengo:'FLA', 'sao-paulo':'SP', gremio:'GRE', corinthians:'COR', santos:'SAN', internacional:'INT', cruzeiro:'CRU', 'atletico-fonte':'ATL', fluminense:'FLU' };
+  let timer;
+  const toast = text => { const el=$('toast'); if (!el)return;el.textContent=text;el.classList.add('show');clearTimeout(timer);timer=setTimeout(()=>el.classList.remove('show'),3100); };
+
+  function readStored() { try { const value=localStorage.getItem(STORE_KEY); return value ? JSON.parse(value) : null; } catch (_) { return null; } }
+  function store(data) { try { localStorage.setItem(STORE_KEY, JSON.stringify(data)); return true; } catch (_) { return false; } }
+  function distinct(arr) { return [...new Set(arr)].filter(Boolean).sort((a,b)=>a.localeCompare(b,'pt-BR')); }
+  function getMode(){ return state.dataset === 'reference' ? DATA.reference : state.imported; }
+  function getAllTeams(){
+    const data=getMode();
+    if (!data) return [];
+    if (Array.isArray(data.teams)) return data.teams.map(t=>({...t})).sort((a,b)=>b.points-a.points);
+    if (Array.isArray(data.campaigns)) {
+      const totals = new Map();
+      for (const c of data.campaigns) {
+        if (c.status !== 'HOMOLOGADO' || !Number.isFinite(c.points)) continue;
+        const key=c.club_id || (fold(c.team)+'|'+(c.uf||'ND')+'|'+c.country);
+        if(!totals.has(key)) totals.set(key, {id:key,name:c.team,uf:c.uf||'ND',country:c.country||'BR',points:0});
+        totals.get(key).points+=c.points;
+      }
+      return [...totals.values()].sort((a,b)=>b.points-a.points);
+    }
+    return [];
+  }
+  function getFilteredRows(){
+    const data=getMode();
+    if(!data) return {rows:[], reason:'A base auditada ainda não foi importada. Use a importação local para testar seus registros.'};
+    const historicalRequested=!!state.year||!!state.decade||!!state.competition;
+    if(!Array.isArray(data.campaigns) && historicalRequested){return {rows:[],reason:'A fonte contém apenas os pontos acumulados. Não há campanhas por ano ou competição disponíveis para aplicar este filtro sem inventar dados.'};}
+    let all = getAllTeams();
+    if(Array.isArray(data.campaigns)){
+      const filtered = data.campaigns.filter(c => {
+        if(c.status!=='HOMOLOGADO'||!Number.isFinite(c.points))return false;
+        if(state.year && String(c.year)!==state.year)return false;
+        if(state.decade && (c.year < Number(state.decade) || c.year > Number(state.decade)+9))return false;
+        if(state.competition && fold(c.competition)!==fold(state.competition))return false;
+        return true;
+      });
+      const map = new Map();
+      for(const c of filtered){
+        const key=c.club_id || (fold(c.team)+'|'+(c.uf||'ND')+'|'+c.country);
+        if(!map.has(key))map.set(key,{id:key,name:c.team,uf:c.uf||'ND',country:c.country||'BR',points:0});
+        map.get(key).points+=c.points;
+      }
+      all=[...map.values()].sort((a,b)=>b.points-a.points);
+    }
+    const totalLeader=Math.max(0,...getAllTeams().map(t=>t.points));
+    let rows=all.map((t,i)=>({...t,rank:i+1}));
+    if(state.search)rows=rows.filter(t=>fold(t.name).includes(fold(state.search)));
+    if(state.country)rows=rows.filter(t=>(t.country||'BR')===state.country);
+    if(state.uf)rows=rows.filter(t=>(t.uf||'ND')===state.uf);
+    if(state.podium)rows=rows.filter(t=>t.rank<=3);
+    if(state.sort==='name')rows.sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));
+    else if(state.sort==='state')rows.sort((a,b)=>(a.uf||'ZZ').localeCompare(b.uf||'ZZ')||b.points-a.points);
+    else rows.sort((a,b)=>b.points-a.points);
+    return {rows,totalLeader,reason:rows.length?'':'Nenhum clube encontrado para os filtros escolhidos.'};
+  }
+  function generateMonogram(team){
+    if(monograms[team.id])return monograms[team.id];
+    const words=String(team.name).split(/\s+/).filter(Boolean);
+    if(words.length===1)return words[0].slice(0,3).toLocaleUpperCase('pt-BR');
+    return words.slice(0,3).map(w=>w[0]).join('').toLocaleUpperCase('pt-BR');
+  }
+  function refreshStates(){
+    const oldCountry=state.country;
+    $('filter-country').innerHTML='<option value="">Todos os países</option>'+distinct(getAllTeams().map(t=>t.country||'BR')).map(v=>`<option value="${esc(v)}">${v==='BR'?'Brasil (BR)':esc(v)}</option>`).join('');
+    if([...$('filter-country').options].some(o=>o.value===oldCountry))$('filter-country').value=oldCountry;
+    else {state.country=''; $('filter-country').value='';}
+    const old=state.uf;
+    $('filter-state').innerHTML='<option value="">Todos os estados</option>'+distinct(getAllTeams().map(t=>t.uf||'ND')).map(v=>`<option value="${esc(v)}">${v==='ND'?'Não determinado':esc(v)}</option>`).join('');
+    if([...$('filter-state').options].some(o=>o.value===old))$('filter-state').value=old;
+    else {state.uf=''; $('filter-state').value='';}
+  }
+  function refreshDecades(){
+    const decades=[];for(let d=1900;d<=2030;d+=10)decades.push(d);
+    $('filter-decade').innerHTML='<option value="">Todas as décadas</option>'+decades.map(d=>`<option value="${d}">${d}–${d+9}</option>`).join('');
+    $('filter-decade').value=state.decade;
+  }
+  function refreshCompetitionFilter(){
+    const opts=DATA.canonical.competitions;
+    $('filter-comp').innerHTML='<option value="">Todas as competições</option>'+opts.map(c=>`<option value="${esc(c.id)}">${esc(c.name)}</option>`).join('');
+    $('filter-comp').value=state.competition;
+  }
+  function renderRank(){
+    const {rows,reason,totalLeader}=getFilteredRows();
+    const body=$('ranking-body');
+    const data=getMode();
+    body.innerHTML=rows.map((t)=>{
+      const gap=(totalLeader||0)-t.points;
+      const percent=totalLeader>0? Math.max(0,Math.min(100,t.points/totalLeader*100)):0;
+      const displayRank=Number.isInteger(t.rank)?t.rank:'—';
+      const rankClass=displayRank===1?'rank-first':displayRank===2?'rank-second':displayRank===3?'rank-third':'';
+      return `<tr><td><span class="rank-number ${rankClass}">${displayRank}</span></td><td><button type="button" class="club-link" data-club-id="${esc(t.id)}"><span class="club-identity"><span class="club-monogram">${esc(generateMonogram(t))}</span><span><span class="club-name">${esc(t.name)}</span><span class="club-sub">${esc(t.country||'BR')} · ficha documental</span></span></span></button></td><td>${esc(t.uf||'ND')}</td><td class="right"><span class="point-value">${fmt(t.points,1)}</span></td><td class="right"><span class="gap-number">${Math.abs(gap)<1e-9?'Líder':`− ${fmt(Math.max(0,gap),1)}`}</span></td><td class="right hide-sm"><span class="bar-track"><span class="bar-fill" style="width:${percent.toFixed(1)}%"></span></span></td></tr>`;
+    }).join('');
+    const empty=rows.length===0;
+    $('rank-empty').hidden=!empty;
+    if(empty){$('rank-empty-title').textContent='Sem dados para este recorte';$('rank-empty-message').textContent=reason;}
+    $('rows-note').textContent=rows.length+' clube'+(rows.length===1?'':'s')+' neste recorte';
+    const isRef=state.dataset==='reference';
+    $('table-foot-label').textContent=isRef?'Pontuações da fonte · edição 01/11/2026':'Importação local · não substitui o cânone';
+    $('source-label').textContent=isRef?'10 posições verificadas · fonte externa':data?'Base importada neste navegador':'Nenhuma base local importada';
+    $('source-warning').innerHTML=isRef?'<span class="info-glyph">i</span><p><strong>Base provisória externa.</strong> Os pontos são reproduzidos conforme a classificação pública da fonte. Não constituem créditos homologados do CLUBENSE. <a href="https://rankinghistorico.com.br/" target="_blank" rel="noopener noreferrer">Consultar origem ↗</a></p>':'<span class="info-glyph">i</span><p><strong>Base local não publicada.</strong> Importar registros neste navegador não significa auditoria ou homologação. Registros ND/HOLD não somam pontos ao ranking.</p>';
+    $('stat-clubs').textContent=getAllTeams().length;
+    $('stat-leader').textContent=getAllTeams().length?fmt(getAllTeams()[0].points,1):'—';
+    refreshAnalytics();
+  }
+  function refreshAnalytics(){
+    const teams=getAllTeams().slice(0,10);
+    const top=teams[0]?.points||1;
+    $('top-bars').innerHTML=teams.length?teams.map(t=>`<div class="bar-line"><span class="bar-line-name" title="${esc(t.name)}">${esc(t.name)}</span><span class="bar-line-track"><span class="bar-line-fill" style="width:${Math.max(0,Math.min(100,t.points/top*100)).toFixed(1)}%"></span></span><span class="bar-line-value">${fmt(t.points,1)}</span></div>`).join(''):'<p>Importe uma base para consultar as comparações.</p>';
+    const options=teams.map(t=>`<option value="${esc(t.id)}">${esc(t.name)}</option>`).join('');
+    $('compare-a').innerHTML=options; $('compare-b').innerHTML=options;
+    if(!teams.length){$('comparison-output').textContent='Sem dados para comparação.';return;}
+    if(!teams.some(t=>t.id===state.compareA))state.compareA=teams[0].id;
+    if(!teams.some(t=>t.id===state.compareB))state.compareB=(teams[1]||teams[0]).id;
+    $('compare-a').value=state.compareA; $('compare-b').value=state.compareB;
+    renderComparison();
+  }
+  function renderComparison(){
+    const teams=getAllTeams();
+    const a=teams.find(t=>t.id===state.compareA);const b=teams.find(t=>t.id===state.compareB);
+    if(!a||!b){$('comparison-output').textContent='Selecione dois clubes disponíveis.';return;}
+    const denom=Math.max(0,a.points)+Math.max(0,b.points);
+    const left=denom>0?Math.max(0,a.points)/denom*100:50;
+    const delta=Math.abs(a.points-b.points);
+    $('comparison-output').innerHTML=`<div class="compare-names"><span>${esc(a.name)}</span><span>${esc(b.name)}</span></div><div class="compare-scale"><span style="width:${left.toFixed(2)}%"></span><span style="width:${(100-left).toFixed(2)}%"></span></div><div class="compare-scores"><span>${fmt(a.points,1)}</span><span>${fmt(b.points,1)}</span></div><div class="compare-description">${a.points===b.points?'Pontuação agregada igual neste conjunto de dados.':`${esc(a.points>b.points?a.name:b.name)} tem ${fmt(delta,1)} pontos a mais neste recorte.`} Não é uma análise de confrontos diretos.</div>`;
+  }
+  function switchDataset(mode){
+    state.dataset=mode;
+    state.search='';state.country='';state.uf='';state.competition='';state.year='';state.decade='';state.sort='points';state.podium=false;
+    $('filter-search').value='';$('filter-year').value='';$('filter-decade').value='';$('filter-sort').value='points';$('podium-only').checked=false;
+    $('dataset-reference').classList.toggle('active',mode==='reference');
+    $('dataset-reference').setAttribute('aria-pressed',String(mode==='reference'));
+    $('dataset-local').classList.toggle('active',mode==='local');
+    $('dataset-local').setAttribute('aria-pressed',String(mode==='local'));
+    refreshStates();refreshCompetitionFilter();renderRank();
+  }
+  function openClub(id){
+    const {rows}=getFilteredRows();
+    const team=rows.find(t=>t.id===id);
+    if(!team)return;
+    const data=getMode();const ref=state.dataset==='reference';
+    $('dialog-content').innerHTML=`<div class="dialog-eyebrow">FICHA DO CLUBE · ${ref?'BASE DE REFERÊNCIA':'BASE LOCAL'}</div><h3 class="dialog-name" id="dialog-title">${esc(team.name)}</h3><div class="dialog-pts">${fmt(team.points,1)}</div><div class="dialog-eyebrow">PONTOS AGREGADOS</div><p class="dialog-sub">Posição no recorte: <strong>${team.rank}º</strong>. Estado: <strong>${esc(team.uf||'ND')}</strong>. País: <strong>${esc(team.country||'BR')}</strong>.</p><p class="dialog-sub">${ref?'Este total é um dado publicado por terceiros, não um recálculo pelo método CLUBENSE. Não há campanhas anuais desagregadas neste recorte.':'Este total corresponde somente ao conjunto importado localmente e não recebeu auditoria independente pelo portal.'}</p><p class="dialog-sub">${esc(team.note||'Identificador gráfico tipográfico: não é escudo oficial do clube.')}</p><span class="dialog-badge">${ref?'PROVISÓRIO EXTERNO':'IMPORTAÇÃO LOCAL'}</span>${ref?'<a class="dialog-source" href="https://rankinghistorico.com.br/" target="_blank" rel="noopener noreferrer">Conferir a origem da pontuação ↗</a>':''}`;
+    const dlg=$('club-dialog');if(typeof dlg.showModal==='function')dlg.showModal();else dlg.setAttribute('open','');
+  }
+
+  const phaseText={champion:'Campeão',runner_up:'Vice',semifinal:'Semifinal',quarterfinal:'Quartas de final',round_16:'Oitavas de final',round_32:'32 avos',round_64:'64 avos'};
+  function pointsLeague(value,n,position){
+    if(!Number.isInteger(n)||n<2||n>128||!Number.isInteger(position)||position<1||position>n||!Number.isFinite(value))return null;
+    if(position===1)return value;
+    if(n===2)return value*0.8;
+    return value*(0.02+0.78*Math.pow((n-position)/(n-2),2));
+  }
+  function knockoutPoints(value,phase,rhe,j,m){
+    const ratio=DATA.canonical.knockout_phase_ceiling[phase];
+    if(ratio===undefined)return null;
+    const cap=value*ratio;
+    if(!rhe||phase==='champion'||phase==='runner_up')return cap;
+    if(!Number.isInteger(j)||!Number.isInteger(m)||m<1||j<1||j>m)return null;
+    return cap*(1-(j-1)/(2*m));
+  }
+  function initCalculator(){
+    const groups=[...new Set(DATA.canonical.competitions.map(c=>c.group))];
+    $('calc-comp').innerHTML=groups.map(g=>`<optgroup label="${esc(g)}">${DATA.canonical.competitions.filter(c=>c.group===g).map(c=>`<option value="${esc(c.id)}">${esc(c.name)} · ${fmt(c.base,0)}${c.hold?' · HOLD':''}</option>`).join('')}</optgroup>`).join('');
+    $('calc-comp').value='br-a';renderCalculator();
+  }
+  function renderCalculator(){
+    const comp=DATA.canonical.competitions.find(c=>c.id===$('calc-comp').value)||DATA.canonical.competitions[0];
+    const league=comp.type==='league'; const n=Number($('calc-n').value),p=Number($('calc-p').value),phase=$('calc-phase').value;
+    const rhe=$('rhe-toggle').checked,j=Number($('calc-j').value),m=Number($('calc-m').value);
+    $('calc-n-wrap').hidden=!league;$('calc-p-wrap').hidden=!league;$('cup-controls').hidden=league;
+    $('rhe-fields').hidden=!rhe||phase==='runner_up'||phase==='champion';
+    const result=league?pointsLeague(comp.base,n,p):knockoutPoints(comp.base,phase,rhe,j,m);
+    const percent=result===null?null:result/comp.base*100;
+    $('calc-result').textContent=result===null?'DADOS INVÁLIDOS':fmt(result,2);
+    $('calc-base').textContent=fmt(comp.base,2);
+    $('calc-percent').textContent=percent===null?'—':fmt(percent,4)+'%';
+    $('calc-status').textContent=comp.hold?'HOLD · SIMULAÇÃO':'SIMULAÇÃO · NÃO LANÇADA';
+    $('calc-rule').textContent=league?'P(p) = V × [0,02 + 0,78 × ((N−p)/(N−2))²]':(rhe&&phase!=='champion'&&phase!=='runner_up'?'P(j) = U × [1 − (j−1)/(2m)]':'Tetos de fase: não equivalem automaticamente ao crédito histórico');
+    $('calc-explanation').textContent=result===null?'Revise as entradas: participante ≥2, posição válida e ordem RHE entre 1 e m.':comp.hold?'Categoria internacional bloqueada por C07/C23. Nenhum valor é incorporado ao ranking.':league?'Liga: campeão 100%, vice 80% e último 2%; N=2 usa regra específica. A edição precisa ser documentalmente validada.':'Eliminatórias: campeão 100%, vice 50%, demais fases como tetos. RHE requer a ordenação comprovada dos eliminados.';
+    $('calc-help').textContent=league?'A aplicação a edições históricas exige classificação oficial e número de participantes comprovados. Formatos híbridos requerem análise própria.':'Os percentuais de eliminados são tetos; sem classificação oficial ou chaveamento documentado, o crédito efetivo não pode ser homologado.';
+    const rows=[];
+    if(league){
+      if(Number.isInteger(n)&&n>=2&&n<=128)for(let k=1;k<=n;k++){const pts=pointsLeague(comp.base,n,k);rows.push([k+'º',pts/comp.base*100,pts,k===p]);}
+    }else{
+      for(const [key,ratio] of Object.entries(DATA.canonical.knockout_phase_ceiling)){rows.push([phaseText[key],ratio*100,comp.base*ratio,key===phase]);}
+    }
+    $('calc-table-desc').textContent=league?`${Number.isInteger(n)?n:'?'} participantes · base ${fmt(comp.base,0)}`:`Fases eliminatórias · tetos · base ${fmt(comp.base,0)}`;
+    $('calc-table-body').innerHTML=rows.map(r=>`<tr${r[3]?' style="background:#edf0d8"':''}><td>${esc(r[0])}${r[3]?' <span style="color:#a18143"> ◆</span>':''}</td><td class="right">${fmt(r[1],4)}%</td><td class="right">${fmt(r[2],2)}</td></tr>`).join('');
+    if(!rows.length)$('calc-table-body').innerHTML='<tr><td colspan="3">Insira um número inteiro de participantes entre 2 e 128.</td></tr>';
+  }
+
+  function renderAudit(){
+    const filter=$('audit-filter').value;
+    const decisions=DATA.decisions.decisions.filter(d=>{
+      if(filter==='approved')return d.decision==='C';
+      if(filter==='pending')return !d.decision;
+      if(filter==='hold')return /HOLD|ND/i.test(d.status);
+      return true;
+    });
+    $('audit-list').innerHTML=decisions.map((d,i)=>{
+      const approved=d.decision==='C';const cls=approved?'':'is-pending';
+      const chip=approved?`<span class="status-chip">C · APROVADA</span>`:'<span class="status-chip pending">SEM DECISÃO</span>';
+      return `<details class="audit-row ${cls}"><summary><span class="audit-id">${esc(d.id)}</span><span class="audit-title">${esc(d.title)}</span><span class="audit-badges">${chip}<span class="audit-chevron">⌄</span></span></summary><div class="audit-detail"><p>${esc(d.short)}</p><p>${esc(d.detail)}</p><small>Registro de governança 02/11/2026 · status documental: ${esc(d.status)}</small></div></details>`;
+    }).join('')||'<p>Nenhuma decisão corresponde ao filtro.</p>';
+  }
+
+  function download(filename, text, mime='application/json;charset=utf-8'){
+    const blob=new Blob(['\uFEFF',text],{type:mime});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);
+  }
+  function exportCsv(){
+    const {rows}=getFilteredRows();
+    if(!rows.length){toast('Não há dados no filtro atual para exportar.');return;}
+    const quoted=s=>'"'+String(s??'').replace(/"/g,'""')+'"';
+    const csv=[['posicao','clube','uf','pais','pontos','origem'].join(';'),...rows.map(t=>[t.rank,t.name,t.uf||'ND',t.country||'BR',String(t.points).replace('.',','),state.dataset==='reference'?'rankinghistorico.com.br':'importacao-local'].map(quoted).join(';'))].join('\r\n');
+    download('ranking-mundial-definitivo-recorte.csv',csv,'text/csv;charset=utf-8');toast('CSV do recorte atual gerado.');
+  }
+  const MODEL={
+    description:'Modelo para futura base auditada. Importação local NÃO homologa lançamentos.',
+    campaigns:[
+      {team:'Clube de demonstração (remover)',club_id:'clube-demo-sp',country:'BR',uf:'SP',year:1902,competition:'estadual-a',position:1,participants:5,status:'HOLD',points:10000,source:'Fonte documental a validar'}
+    ]
+  };
+  function validateData(raw){
+    if(!raw||typeof raw!=='object'||Array.isArray(raw))throw new Error('O JSON precisa conter objeto com "teams" ou "campaigns".');
+    if(Array.isArray(raw.teams)){
+      if(raw.teams.length>10000)throw new Error('Limite de 10.000 clubes por arquivo.');
+      const teams=raw.teams.map((t,i)=>{
+        if(!t||typeof t.name!=='string'||!t.name.trim()||t.points===null||t.points===undefined||!Number.isFinite(Number(t.points)))throw new Error('Clube '+(i+1)+' inválido: name e points numéricos são obrigatórios.');
+        return {id:String(t.id||('local-'+i+'-'+fold(t.name))).slice(0,140),name:t.name.slice(0,120),country:String(t.country||'BR').slice(0,3),uf:String(t.uf||'ND').slice(0,8),points:Number(t.points),note:'Base importada localmente; autenticação pendente.'};
+      });
+      return {teams,scope:'local',granularity:'aggregate',approval:'IMPORTACAO_LOCAL'};
+    }
+    if(Array.isArray(raw.campaigns)){
+      if(raw.campaigns.length>25000)throw new Error('Limite de 25.000 campanhas por arquivo.');
+      const valid=raw.campaigns.map((c,i)=>{
+        if(!c||typeof c.team!=='string'||!c.team.trim())throw new Error('Campanha '+(i+1)+': campo team obrigatório.');
+        const status=String(c.status||'ND').toUpperCase().trim();
+        if(status==='HOMOLOGADO'&&(c.points===null||c.points===undefined||!Number.isFinite(Number(c.points))))throw new Error('Campanha '+(i+1)+': crédito HOMOLOGADO exige points numérico.');
+        return {team:c.team.slice(0,120),club_id:typeof c.club_id==='string'?c.club_id.slice(0,120):null,country:String(c.country||'BR').slice(0,3),uf:String(c.uf||'ND').slice(0,8),year:Number.isFinite(Number(c.year))?Number(c.year):null,competition:String(c.competition||'ND').slice(0,100),position:Number.isFinite(Number(c.position))?Number(c.position):null,participants:Number.isFinite(Number(c.participants))?Number(c.participants):null,status,points:Number.isFinite(Number(c.points))?Number(c.points):null,source:String(c.source||'Não informada').slice(0,300)};
+      });
+      return {campaigns:valid,scope:'local',granularity:'campaigns',approval:'IMPORTACAO_LOCAL'};
+    }
+    throw new Error('Inclua o array "teams" ou "campaigns".');
+  }
+  async function handleImport(event){
+    const file=event.target.files?.[0];if(!file)return;
+    try{
+      if(file.size>8_000_000)throw new Error('Arquivo muito grande. Limite de 8 MB.');
+      const raw=JSON.parse(await file.text());const imported=validateData(raw);
+      state.imported=imported;
+      const persist=store(imported);
+      $('import-feedback').textContent=`Base local carregada (${imported.teams?.length??imported.campaigns?.length} registros). ${persist?'Salva neste navegador.':'Não foi possível salvar de forma persistente.'} Créditos em HOLD/ND não são somados.`;
+      switchDataset('local');
+      toast('Importação concluída. Dados ainda não homologados pelo projeto.');
+    }catch(err){$('import-feedback').textContent='Falha de importação: '+err.message;toast('O JSON não passou na validação.');}
+    finally{event.target.value='';}
+  }
+  function resetLocal(){
+    state.imported=null;
+    try{localStorage.removeItem(STORE_KEY);}catch(_){}
+    $('import-feedback').textContent='Base local removida deste navegador. A referência pública continua intacta.';
+    switchDataset('reference');toast('Base local removida.');
+  }
+  function clearFilters(){
+    state.search='';state.country='';state.uf='';state.competition='';state.year='';state.decade='';state.sort='points';state.podium=false;
+    $('filter-search').value='';$('filter-country').value='';$('filter-state').value='';$('filter-comp').value='';$('filter-year').value='';$('filter-decade').value='';$('filter-sort').value='points';$('podium-only').checked=false;
+    renderRank();
+  }
+  function initEvents(){
+    $('dataset-reference').addEventListener('click',()=>switchDataset('reference'));
+    $('dataset-local').addEventListener('click',()=>switchDataset('local'));
+    $('filter-search').addEventListener('input',e=>{state.search=e.target.value;renderRank();});
+    $('filter-country').addEventListener('change',e=>{state.country=e.target.value;renderRank();});
+    $('filter-state').addEventListener('change',e=>{state.uf=e.target.value;renderRank();});
+    $('filter-comp').addEventListener('change',e=>{state.competition=e.target.value;renderRank();});
+    $('filter-year').addEventListener('input',e=>{state.year=e.target.value;renderRank();});
+    $('filter-decade').addEventListener('change',e=>{state.decade=e.target.value;renderRank();});
+    $('filter-sort').addEventListener('change',e=>{state.sort=e.target.value;renderRank();});
+    $('podium-only').addEventListener('change',e=>{state.podium=e.target.checked;renderRank();});
+    $('clear-filters').addEventListener('click',clearFilters);$('empty-clear').addEventListener('click',clearFilters);
+    $('ranking-body').addEventListener('click',e=>{const b=e.target.closest('[data-club-id]');if(b)openClub(b.dataset.clubId);});
+    $('dialog-close').addEventListener('click',()=>$('club-dialog').close());
+    $('club-dialog').addEventListener('click',e=>{if(e.target===$('club-dialog'))$('club-dialog').close();});
+    $('export-csv').addEventListener('click',exportCsv);
+    $('compare-a').addEventListener('change',e=>{state.compareA=e.target.value;renderComparison();});
+    $('compare-b').addEventListener('change',e=>{state.compareB=e.target.value;renderComparison();});
+    for(const id of ['calc-comp','calc-n','calc-p','calc-phase','rhe-toggle','calc-j','calc-m']){
+      $(id).addEventListener(['calc-n','calc-p','calc-j','calc-m'].includes(id)?'input':'change',renderCalculator);
+    }
+    $('audit-filter').addEventListener('change',renderAudit);
+    $('download-model').addEventListener('click',()=>download('modelo-campanhas-clubense.json',JSON.stringify(MODEL,null,2)));
+    $('import-file').addEventListener('change',handleImport);
+    $('reset-local').addEventListener('click',resetLocal);
+    const menu=$('menu-toggle');const nav=$('main-nav');
+    menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Fechar menu':'Abrir menu de navegação');});
+    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false');}));
+  }
+  function initialize(){
+    state.imported=readStored();
+    if(state.imported) $('import-feedback').textContent='Há uma base local guardada neste navegador. Para visualizá-la, selecione “Base local / futura”.';
+    refreshStates();refreshCompetitionFilter();refreshDecades();initCalculator();renderAudit();initEvents();renderRank();
+  }
+  initialize();
+  // If hosted via HTTP(S), JSON files override the bundled offline fallback.
+  if(!window.RMD_SINGLE_FILE && (location.protocol==='http:'||location.protocol==='https:')){
+    Promise.all([
+      fetch('./data/reference-2026-11-01.json').then(r=>{if(!r.ok)throw new Error('Referência');return r.json();}),
+      fetch('./data/decisions.json').then(r=>{if(!r.ok)throw new Error('Decisões');return r.json();}),
+      fetch('./data/canonical-model.json').then(r=>{if(!r.ok)throw new Error('Cânone');return r.json();})
+    ]).then(([reference,decisions,canonical])=>{
+      if(!reference?.teams?.length||!canonical?.competitions?.length||!decisions?.decisions?.length)return;
+      DATA={...DATA,reference,decisions,canonical};refreshStates();refreshCompetitionFilter();initCalculator();renderAudit();renderRank();
+    }).catch(()=>{/* Offline fallback remains available; no paid service required. */});
+  }
+  // Expose pure calculation functions for reproducible automated tests.
+  window.RMD_MATH=Object.freeze({pointsLeague,knockoutPoints});
+})();
+</script></body>
+</html>
